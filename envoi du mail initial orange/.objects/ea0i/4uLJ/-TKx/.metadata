@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Edge Page d'accueil - Agilis",
+  "Type": "Screen",
+  "Id": "-TKxvywsKUme9ykNhJ8_-g",
+  "Reference": "1u4FsNan00e57ASPTqWMWA/-TKxvywsKUme9ykNhJ8_-g",
+  "ParentRef": "1u4FsNan00e57ASPTqWMWA/4uLJQa4ukUSr0VAyg37KCA",
+  "Created": "2024-09-02T07:39:40.4646387Z",
+  "Updated": "2024-09-06T10:22:40.3313402Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

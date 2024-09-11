@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Modifier les suivis du point d'impact - ",
+  "Type": "Screen",
+  "Id": "MH3_sB1Juk-DhganXOQ2cg",
+  "Reference": "1u4FsNan00e57ASPTqWMWA/MH3_sB1Juk-DhganXOQ2cg",
+  "ParentRef": "1u4FsNan00e57ASPTqWMWA/4uLJQa4ukUSr0VAyg37KCA",
+  "Created": "2024-09-04T14:51:00.7487352Z",
+  "Updated": "2024-09-04T14:51:00.7487352Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

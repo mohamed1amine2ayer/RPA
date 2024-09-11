@@ -1,0 +1,105 @@
+{
+  "name": "envoi du mail initial orange",
+  "projectId": "3ee7cff4-950a-48c8-bf9e-3613b171d8de",
+  "description": "Blank Process",
+  "main": "Main.final_version_1.0.1.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.23.4]",
+    "UiPath.Mail.Activities": "[1.23.1]",
+    "UiPath.MicrosoftOffice365.Activities": "[2.6.25]",
+    "UiPath.System.Activities": "[24.10.3]",
+    "UiPath.Testing.Activities": "[24.10.0]",
+    "UiPath.UIAutomation.Activities": "[24.10.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.1.0",
+  "projectVersion": "1.0.7",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "1ab318f9-19a1-4e50-a663-4e174d3129b4",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Sequence.xaml",
+      "uniqueId": "77f85292-98db-4330-bb38-e86fba162533",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "test2.xaml",
+      "uniqueId": "fe973dde-1691-495b-a38b-4f634a4513a3",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "test3.xaml",
+      "uniqueId": "551a82fe-bdce-4cde-a41e-df4d08117506",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "test.xaml",
+      "uniqueId": "928251bf-8f7d-4955-9111-6f194b848591",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "test11.xaml",
+      "uniqueId": "5ef78717-f510-483b-96e6-c5d9fe7bd8d6",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "excel.xaml",
+      "uniqueId": "ed299b95-1147-4289-891a-9d2ed7ccdf26",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Main.final_version_1.0.1.xaml",
+      "uniqueId": "379a6260-e5d0-4dc2-b54e-a52fd9fd0207",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

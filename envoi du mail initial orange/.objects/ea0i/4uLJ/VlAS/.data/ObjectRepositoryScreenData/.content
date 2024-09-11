@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="s22sdPyz4UaTMevFWEIc8g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACBSURBVDhPpY6BDYMwEAO7EzuxU3Zip/SC8wVaC1n0pHMgTh5e/U80YGV5IihdmQhKVyaC0pWJoHRlIihdmQhKVyaC0pWJoHRlIihdmQjKfWM5reX3/lzbFNiBUWztsK3X94ub+nEHfgeMsgbsz3ypLn7OzL+BY8CdNaQulqB8TO9vNkLc2btuyiIAAAAASUVORK5CYII=" Selector="&lt;html app='msedge.exe' title='Connexion Gassi' /&gt;" Title="Connexion Gassi" Url="https://gassi.sso.francetelecom.fr/logingassifaible.jsp?TYPE=33554433&amp;REALMOID=06-0000dc0b-69fd-1228-8b8d-0c120ac5d0e4&amp;GUID=&amp;SMAUTHREASON=0&amp;METHOD=GET&amp;SMAGENTNAME=$SM$q%2bAZMz0ws2%2fqJPHhybPq2bpCMdNTvpB%2fPL%2fZYGScBONcKCfIZf3UFWJ4t3oQWnP0&amp;TARGET=$SM$https:%2f%2fmsi.sso.francetelecom.fr%2fmonsi%2findex.html#/applications">
+      <imageRef attrName="InformativeScreenshot" originalValue="12acb63d61171ea539af3f2a644cf077.jpg" xmlns="">0dKwu653u9Eeflqin51vm1A</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

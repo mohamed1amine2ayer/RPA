@@ -1,0 +1,1396 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="test_of_the_main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1088.8,12008.8" sap2010:WorkflowViewState.IdRef="test_of_the_main_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.Mail.Outlook.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Onvoi du mail orange" sap:VirtualizedContainerService.HintSize="872,11944" sap2010:WorkflowViewState.IdRef="Sequence_24">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="place" />
+      <Variable x:TypeArguments="x:String" Name="Mail" />
+      <Variable x:TypeArguments="x:String" Name="Horaires" />
+      <Variable x:TypeArguments="x:String" Name="Tel" />
+      <Variable x:TypeArguments="x:String" Name="Lieu" />
+      <Variable x:TypeArguments="x:String" Name="head" />
+      <Variable x:TypeArguments="x:String" Name="body" />
+      <Variable x:TypeArguments="x:String" Name="plac" />
+      <Variable x:TypeArguments="sd:DataTable" Name="Filtered_dt" />
+      <Variable x:TypeArguments="scg:List(x:String)" Name="mylist" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="getting the needed  request number " sap:VirtualizedContainerService.HintSize="809.6,11855.2" sap2010:WorkflowViewState.IdRef="Sequence_25">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:String" Default="C:\Users\ayer.mohamedamine_am\Desktop\test\test_excel" Name="FilesDirectory" />
+        <Variable x:TypeArguments="s:String[]" Name="DirectoryTest" />
+        <Variable x:TypeArguments="sd:DataTable" Name="data_dt" />
+        <Variable x:TypeArguments="sd:DataTable" Name="Suivi" />
+        <Variable x:TypeArguments="sd:DataTable" Name="Suivi_dt" />
+        <Variable x:TypeArguments="x:String" Name="data_dt_1" />
+        <Variable x:TypeArguments="sd:DataTable" Name="num_req_dt" />
+        <Variable x:TypeArguments="sd:DataTable" Name="suivi_dt" />
+        <Variable x:TypeArguments="sd:DataTable" Name="suivi_DT" />
+        <Variable x:TypeArguments="sd:DataTable" Name="SUIVI_dt" />
+        <Variable x:TypeArguments="sd:DataTable" Name="Filtered_dt" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="747.2,56.8" sap2010:WorkflowViewState.IdRef="KillProcess_2" ProcessName="Excel">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:KillProcess>
+      <Assign sap2010:Annotation.AnnotationText="get all files in the main directory" DisplayName="Assign1" sap:VirtualizedContainerService.HintSize="747.2,100.8" sap2010:WorkflowViewState.IdRef="Assign_4">
+        <Assign.To>
+          <OutArgument x:TypeArguments="s:String[]">[DirectoryTest]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="s:String[]">[Directory.GetFiles(FilesDirectory)]</InArgument>
+        </Assign.Value>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </Assign>
+      <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each : Nomenclature des fichiers" sap:VirtualizedContainerService.HintSize="747.2,56.8" sap2010:WorkflowViewState.IdRef="ForEach`1_3" Values="[DirectoryTest]">
+        <ui:ForEach.Body>
+          <ActivityAction x:TypeArguments="x:String">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:String" Name="currentText" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="512,611.2" sap2010:WorkflowViewState.IdRef="Sequence_33">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <If Condition="[currentText.ToLower.Contains(&quot;suivi_BO&quot;)]" sap:VirtualizedContainerService.HintSize="449.6,522.4" sap2010:WorkflowViewState.IdRef="If_2">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <If.Then>
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,256" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:RenameFileX DisplayName="Rename File" FilePath="[currentText]" sap:VirtualizedContainerService.HintSize="353.6,167.2" sap2010:WorkflowViewState.IdRef="RenameFileX_2" KeepExtension="True" NewName="Fichier de suivi_BO Elagage - V21">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:RenameFileX>
+                  </Sequence>
+                </If.Then>
+                <If.Else>
+                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,104.8" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </If.Else>
+              </If>
+            </Sequence>
+          </ActivityAction>
+        </ui:ForEach.Body>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:ForEach>
+      <Assign sap2010:Annotation.AnnotationText="Get all files after renaming" DisplayName="Assign2" sap:VirtualizedContainerService.HintSize="747.2,88" sap2010:WorkflowViewState.IdRef="Assign_5">
+        <Assign.To>
+          <OutArgument x:TypeArguments="s:String[]">[DirectoryTest]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="s:String[]">[Directory.GetFiles(FilesDirectory)]</InArgument>
+        </Assign.Value>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </Assign>
+      <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="747.2,400.8" sap2010:WorkflowViewState.IdRef="ForEach`1_4" Values="[DirectoryTest]">
+        <ui:ForEach.Body>
+          <ActivityAction x:TypeArguments="x:String">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:String" Name="currentText" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,254.4" sap2010:WorkflowViewState.IdRef="Sequence_34">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="353.6,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="[UiPath.Core.Activities.LogLevel.Error]" Message="[currentText]">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:LogMessage>
+            </Sequence>
+          </ActivityAction>
+        </ui:ForEach.Body>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:ForEach>
+      <ui:BuildDataTable DataTable="[data_dt]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="747.2,92" sap2010:WorkflowViewState.IdRef="BuildDataTable_2" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;N_x00B0__x0020_demande&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Envoi_x0020_mail_x0020_initial&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;pilote_x0020_&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:BuildDataTable>
+      <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="747.2,56.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_2" InstanceCachePeriod="3000" WorkbookPath="C:\Users\ayer.mohamedamine_am\Desktop\test\test_excel\Fichier de suivi_BO Elagage - V21.xlsx">
+        <ui:ExcelApplicationScope.Body>
+          <ActivityAction x:TypeArguments="ui:WorkbookApplication">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,172" sap2010:WorkflowViewState.IdRef="Sequence_26">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="sd:DataTable" Name="num_demand_dt" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:ExcelReadRange AddHeaders="True" DataTable="[num_req_dt]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="353.6,83.2" sap2010:WorkflowViewState.IdRef="ExcelReadRange_2" SheetName="Suivi journalier instances">
+                <ui:ExcelReadRange.Range>
+                  <InArgument x:TypeArguments="x:String">
+                    <Literal x:TypeArguments="x:String" Value="" />
+                  </InArgument>
+                </ui:ExcelReadRange.Range>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:ExcelReadRange>
+            </Sequence>
+          </ActivityAction>
+        </ui:ExcelApplicationScope.Body>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:ExcelApplicationScope>
+      <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[num_req_dt]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="747.2,56.8" sap2010:WorkflowViewState.IdRef="ForEachRow_5">
+        <ui:ForEachRow.Body>
+          <ActivityAction x:TypeArguments="sd:DataRow">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,300" sap2010:WorkflowViewState.IdRef="Sequence_27">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="sd:DataTable" Name="ouput" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{CurrentRow(&quot;N° demande&quot;).ToString(), CurrentRow(&quot;Envoi mail initial&quot;).ToString().ToLower(),CurrentRow(&quot;pilote &quot;).ToString()}]" DataTable="[data_dt]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="353.6,211.2" sap2010:WorkflowViewState.IdRef="AddDataRow_2" />
+            </Sequence>
+          </ActivityAction>
+        </ui:ForEachRow.Body>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:ForEachRow>
+      <ui:FilterDataTable DataTable="[data_dt]" DisplayName="Filter Data Table" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="747.2,56.8" sap2010:WorkflowViewState.IdRef="FilterDataTable_2" OutputDataTable="[Filtered_dt]" SelectColumnsMode="Remove">
+        <ui:FilterDataTable.Filters>
+          <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+            <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
+              <ui:FilterOperationArgument.Column>
+                <InArgument x:TypeArguments="x:String">["Envoi mail initial"]</InArgument>
+              </ui:FilterOperationArgument.Column>
+              <ui:FilterOperationArgument.Operand>
+                <InArgument x:TypeArguments="x:String">["oui"]</InArgument>
+              </ui:FilterOperationArgument.Operand>
+            </ui:FilterOperationArgument>
+            <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
+              <ui:FilterOperationArgument.Column>
+                <InArgument x:TypeArguments="x:String">["pilote "]</InArgument>
+              </ui:FilterOperationArgument.Column>
+              <ui:FilterOperationArgument.Operand>
+                <InArgument x:TypeArguments="x:String">["Mariem"]</InArgument>
+              </ui:FilterOperationArgument.Operand>
+            </ui:FilterOperationArgument>
+          </scg:List>
+        </ui:FilterDataTable.Filters>
+        <ui:FilterDataTable.SelectColumns>
+          <scg:List x:TypeArguments="InArgument" Capacity="4">
+            <x:Null />
+          </scg:List>
+        </ui:FilterDataTable.SelectColumns>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:FilterDataTable>
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="747.2,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+        <ui:CommentOut.Body>
+          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,24.8" sap2010:WorkflowViewState.IdRef="Sequence_72">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[Filtered_dt]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="449.6,443.2" sap2010:WorkflowViewState.IdRef="ForEachRow_6">
+              <ui:ForEachRow.Body>
+                <ActivityAction x:TypeArguments="sd:DataRow">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,254.4" sap2010:WorkflowViewState.IdRef="Sequence_35">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="353.6,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_8" Message="[CurrentRow(&quot;N° demande&quot;)]" />
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEachRow.Body>
+            </ui:ForEachRow>
+          </Sequence>
+        </ui:CommentOut.Body>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:CommentOut>
+      <Assign DisplayName="Assign" sap:VirtualizedContainerService.HintSize="747.2,113.6" sap2010:WorkflowViewState.IdRef="Assign_10">
+        <Assign.To>
+          <OutArgument x:TypeArguments="scg:List(x:String)">[mylist]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="scg:List(x:String)">[(From row In Filtered_dt.AsEnumerable() Select Convert.ToString(row("N° demande"))).ToList()]</InArgument>
+        </Assign.Value>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </Assign>
+      <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="747.2,400.8" sap2010:WorkflowViewState.IdRef="ForEach`1_6" Values="[mylist]">
+        <ui:ForEach.Body>
+          <ActivityAction x:TypeArguments="x:String">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:String" Name="currentText" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,254.4" sap2010:WorkflowViewState.IdRef="Sequence_71">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="353.6,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_21" Message="[currentText]" />
+            </Sequence>
+          </ActivityAction>
+        </ui:ForEach.Body>
+      </ui:ForEach>
+      <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="747.2,10206.4" sap2010:WorkflowViewState.IdRef="ForEach`1_5" MaxIterations="3" Values="[mylist]">
+        <ui:ForEach.Body>
+          <ActivityAction x:TypeArguments="x:String">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:String" Name="currentText" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="713.6,10068.8" sap2010:WorkflowViewState.IdRef="Sequence_70">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="651.2,166.4" sap2010:WorkflowViewState.IdRef="KillProcess_4" ProcessName="msedge" />
+              <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="acceder ala platforme orange" sap:VirtualizedContainerService.HintSize="651.2,56.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_8" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="68393f50-2389-4986-9364-ef556001dc4e" Version="V2">
+                <uix:NApplicationCard.Body>
+                  <ActivityAction x:TypeArguments="x:Object">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,1164" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="353.6,56.8" sap2010:WorkflowViewState.IdRef="MaximizeWindow_2" />
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Group Identifier (Cu-Id)'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="68393f50-2389-4986-9364-ef556001dc4e" Text="QWMT5059" Version="V3">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="https://gassi.sso.francetelecom.fr/logingassifaible.jsp?TYPE=33554433&amp;REALMOID=06-0000dc0b-69fd-1228-8b8d-0c120ac5d0e4&amp;GUID=&amp;SMAUTHREASON=0&amp;METHOD=GET&amp;SMAGENTNAME=$SM$q%2bAZMz0ws2%2fqJPHhybPq2bpCMdNTvpB%2fPL%2fZYGScBONcKCfIZf3UFWJ4t3oQWnP0&amp;TARGET=$SM$https:%2f%2fmsi.sso.francetelecom.fr%2fmonsi%2findex.html#/applications" CVScreenId="15a16401-0008-4581-a4f9-621d8ac2b733" CvElementArea="870, 494, 166, 31" CvType="InputBox" DesignTimeRectangle="873, 496, 162, 27" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='user' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='user' tag='INPUT' type='text' class='' aaname='connect with an Group Identifier (Cu-Id)' /&gt;" Guid="a4852c9e-bc29-4d8f-8879-6bf4d8bd738f" InformativeScreenshot="612b859203c7c51763e2f0c537c5fe09.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Connexion Gassi' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="15a16401-0008-4581-a4f9-621d8ac2b733" CvTextArea="869, 477, 167, 18" CvTextArgument="Group Identifier (Cu-ld)" CvType="Text" DesignTimeRectangle="870, 477, 166, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl id='labelLogin' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl id='labelLogin' tag='LABEL' type='' class='' aaname='Group Identifier (Cu-Id)' check:innerText='Group Identifier (Cu-Id)' /&gt;" Guid="dd3fd57f-b07d-417e-a96a-26504e7656f6" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'password'" sap:VirtualizedContainerService.HintSize="353.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_8" IsPassword="True" ScopeIdentifier="68393f50-2389-4986-9364-ef556001dc4e" Text="vm*8AuaQeK%!" Version="V3">
+                        <uix:NTypeInto.EmptyFieldMode>
+                          <InArgument x:TypeArguments="uix:NEmptyFieldMode">
+                            <Literal x:TypeArguments="uix:NEmptyFieldMode" sap2010:WorkflowViewState.IdRef="Literal`1_1" Value="SingleLine" />
+                          </InArgument>
+                        </uix:NTypeInto.EmptyFieldMode>
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="https://gassi.sso.francetelecom.fr/logingassifaible.jsp?TYPE=33554433&amp;REALMOID=06-0000dc0b-69fd-1228-8b8d-0c120ac5d0e4&amp;GUID=&amp;SMAUTHREASON=0&amp;METHOD=GET&amp;SMAGENTNAME=$SM$q%2bAZMz0ws2%2fqJPHhybPq2bpCMdNTvpB%2fPL%2fZYGScBONcKCfIZf3UFWJ4t3oQWnP0&amp;TARGET=$SM$https:%2f%2fmsi.sso.francetelecom.fr%2fmonsi%2findex.html#/applications" CVScreenId="869f5bd1-edb7-41e2-8276-2899b8a57975" CvElementArea="1038, 493, 166, 31" CvType="InputBox" DesignTimeRectangle="1041, 496, 162, 27" DesignTimeScaleFactor="1.25" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl id='password' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='' aaname='connect with an Group Identifier (Cu-Id)' /&gt;" Guid="866e094f-3b86-4a6b-a887-ac13288d7002" InformativeScreenshot="7ffba55b1067b42fed5015b3be303a5f.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Connexion Gassi' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="869f5bd1-edb7-41e2-8276-2899b8a57975" CvTextArea="1065, 477, 72, 18" CvTextArgument="password" CvType="Text" DesignTimeRectangle="1067, 477, 70, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl id='labelPassword' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl id='labelPassword' tag='LABEL' type='' class='' aaname='password' check:innerText='password' /&gt;" Guid="600ae3b9-617d-480b-82db-1519d8b61782" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'sign in'" sap:VirtualizedContainerService.HintSize="353.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="68393f50-2389-4986-9364-ef556001dc4e" Version="V3">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="https://gassi.sso.francetelecom.fr/logingassifaible.jsp?TYPE=33554433&amp;REALMOID=06-0000dc0b-69fd-1228-8b8d-0c120ac5d0e4&amp;GUID=&amp;SMAUTHREASON=0&amp;METHOD=GET&amp;SMAGENTNAME=$SM$q%2bAZMz0ws2%2fqJPHhybPq2bpCMdNTvpB%2fPL%2fZYGScBONcKCfIZf3UFWJ4t3oQWnP0&amp;TARGET=$SM$https:%2f%2fmsi.sso.francetelecom.fr%2fmonsi%2findex.html#/applications" CVScreenId="5e5f6b39-2f2f-4bce-85b1-96c91f027402" CvElementArea="1207, 488, 99, 36" CvTextArea="1239, 496, 53, 18" CvTextArgument="sign in" CvType="Button" DesignTimeRectangle="1240, 490, 65, 36" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl id='spanLinkValidForm' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='spanLinkValidForm' tag='SPAN' type='' class='spanLinkValidFormEnable' aaname='sign in' check:innerText='sign in' /&gt;" Guid="fd54faf3-0dd1-400d-b625-afcc7bd81d9a" InformativeScreenshot="9ff784d6f3c809a4d680864a540b254a.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Connexion Gassi' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DisplayName="Click 'AG2AGILIS'" sap:VirtualizedContainerService.HintSize="353.6,218.4" sap2010:WorkflowViewState.IdRef="NClick_17" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="68393f50-2389-4986-9364-ef556001dc4e" Version="V3">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="https://msi.sso.francetelecom.fr/monsi/index.html#/applications" DesignTimeRectangle="1476, 325, 347, 95" DesignTimeScaleFactor="1.25" ElementType="Container" FullSelectorArgument="&lt;webctrl parentid='application-114206049' tag='HEADER' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='application-114206049' tag='HEADER' type='' class='application__header ' aaname='' check:innerText='AG2&amp;#xD;&amp;#xA;AGILIS' /&gt;" Guid="6e9997e4-a4f2-4f38-95fa-829329b39c8b" InformativeScreenshot="e69fb6fd89383cdf7a497d0f5f324656.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='msi | EN' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="Label 'Accès à AGILIS V3'" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Target>
+                              <uix:TargetAnchorable BrowserURL="https://msi.sso.francetelecom.fr/monsi/index.html#/applications" DesignTimeRectangle="376, 638, 123, 57" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='application-114206049' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='application-114206049' tag='P' type='' class='application__desc ng-binding ng-isolate-scope' aaname='Accès à AGILIS V3' check:innerText='Accès à AGILIS V3' /&gt;" Guid="2311bf95-af5a-49c7-bbd6-5766c0030f35" InformativeScreenshot="6aede77fec842be7d5dbd3d68520dfb1.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='msi | EN' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                            </uix:VerifyExecutionOptions.Target>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                    </Sequence>
+                  </ActivityAction>
+                </uix:NApplicationCard.Body>
+                <uix:NApplicationCard.TargetApp>
+                  <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" ContentHash="s22sdPyz4UaTMevFWEIc8g" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACBSURBVDhPpY6BDYMwEAO7EzuxU3Zip/SC8wVaC1n0pHMgTh5e/U80YGV5IihdmQhKVyaC0pWJoHRlIihdmQhKVyaC0pWJoHRlIihdmQjKfWM5reX3/lzbFNiBUWztsK3X94ub+nEHfgeMsgbsz3ypLn7OzL+BY8CdNaQulqB8TO9vNkLc2btuyiIAAAAASUVORK5CYII=" InformativeScreenshot="12acb63d61171ea539af3f2a644cf077.jpg" Reference="1u4FsNan00e57ASPTqWMWA/VlASlNbaCUu8lSlShaDAjA" Selector="&lt;html app='msedge.exe' title='Connexion Gassi' /&gt;" Title="Connexion Gassi" Url="https://gassi.sso.francetelecom.fr/logingassifaible.jsp?TYPE=33554433&amp;REALMOID=06-0000dc0b-69fd-1228-8b8d-0c120ac5d0e4&amp;GUID=&amp;SMAUTHREASON=0&amp;METHOD=GET&amp;SMAGENTNAME=$SM$q%2bAZMz0ws2%2fqJPHhybPq2bpCMdNTvpB%2fPL%2fZYGScBONcKCfIZf3UFWJ4t3oQWnP0&amp;TARGET=$SM$https:%2f%2fmsi.sso.francetelecom.fr%2fmonsi%2findex.html#/applications" />
+                </uix:NApplicationCard.TargetApp>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NApplicationCard>
+              <uix:NApplicationCard AttachMode="SingleWindow" DisplayName="Use Browser Edge: Page d'accueil - Agilis" sap:VirtualizedContainerService.HintSize="651.2,1512" sap2010:WorkflowViewState.IdRef="NApplicationCard_25" ScopeGuid="a463e9ca-0db3-4346-ac7f-141e93aef213" Version="V2" WindowResize="Maximize">
+                <uix:NApplicationCard.Body>
+                  <ActivityAction x:TypeArguments="x:Object">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="617.6,1263.2" sap2010:WorkflowViewState.IdRef="Sequence_68">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="555.2,1172.8" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="4" RetryInterval="00:00:10">
+                        <ui:RetryScope.ActivityBody>
+                          <ActivityAction>
+                            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="513.6,972" sap2010:WorkflowViewState.IdRef="Sequence_78">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="4" DisplayName="Click 'NATIONAL'" sap:VirtualizedContainerService.HintSize="451.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_61" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a463e9ca-0db3-4346-ac7f-141e93aef213" Version="V3">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/" CVScreenId="5ccd6253-4a9a-4ffc-8a5b-e07bf58ce625" CvElementArea="1325, 303, 479, 40" CvType="InputBox" DesignTimeRectangle="1776, 308, 25, 32" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl aria-role='presentation' idx='3' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' type='' tag='SPAN' class='select2-selection__arrow' aaname='' /&gt;" Guid="6b9b859f-384e-491c-8cf0-30d8b8346d50" InformativeScreenshot="f72c73b31e00606cd6ce548075633dee.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Page d&amp;apos;accueil - Agilis' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="0653042b-fe26-4548-a402-609f33bc4768" CvElementArea="1325, 303, 479, 40" CvType="InputBox" DesignTimeRectangle="1328, 307, 473, 35" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='NATIONAL' parentid='page_acceuil_form' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='NATIONAL' parentid='page_acceuil_form' tag='SPAN' type='' class='select2-selection__rendered' check:innerText='NATIONAL' /&gt;" Guid="fde51e24-236e-43b2-be0c-cb338a4dec51" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'NATIONAL'" sap:VirtualizedContainerService.HintSize="451.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_62" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a463e9ca-0db3-4346-ac7f-141e93aef213" Version="V3">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/" CVScreenId="470587e6-188b-4dfd-96be-87b16b5c5084" CvTextArea="1334, 494, 86, 17" CvTextArgument="NATIONAL" CvType="Text" DesignTimeRectangle="1199, 387, 423, 40" DesignTimeScaleFactor="1.25" ElementType="ListItem" FullSelectorArgument="&lt;webctrl aria-role='treeitem' idx='13' tag='LI' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='treeitem' type='' tag='LI' class='select2-results__option' aaname='NATIONAL' check:innerText='NATIONAL' /&gt;" Guid="7dff9156-de70-48b1-bdf7-8de7573a97fa" InformativeScreenshot="013417a9c653916df3f9e118c76b3a53.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Page d&amp;apos;accueil - Agilis' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Double" DelayBefore="10" DisplayName="Click 'Accéder au module'" sap:VirtualizedContainerService.HintSize="451.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_55" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a463e9ca-0db3-4346-ac7f-141e93aef213" Timeout="15" Version="V3">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/" CVScreenId="bff6cfa2-0553-4f39-8a10-64b9f6ccfe28" CvElementArea="1607, 418, 209, 54" CvTextArea="1631, 436, 157, 17" CvTextArgument="Acceder au module" CvType="Button" DesignTimeRectangle="1609, 421, 206, 49" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='INPUT' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='button' class='btn btn-primary' aaname='Accéder au module' check:text='Accéder au module' /&gt;" Guid="c63ea9f0-3e27-411e-9b9b-4ddfc3249de9" InformativeScreenshot="520d51b23204835761023b179fcfbe7d.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Page d&amp;apos;accueil - Agilis' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="451.2,206.4" sap2010:WorkflowViewState.IdRef="CommentOut_6">
+                                <ui:CommentOut.Body>
+                                  <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,104.8" sap2010:WorkflowViewState.IdRef="Sequence_80">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </Sequence>
+                                </ui:CommentOut.Body>
+                              </ui:CommentOut>
+                            </Sequence>
+                          </ActivityAction>
+                        </ui:RetryScope.ActivityBody>
+                        <ui:RetryScope.Condition>
+                          <ActivityFunc x:TypeArguments="x:Boolean" />
+                        </ui:RetryScope.Condition>
+                      </ui:RetryScope>
+                    </Sequence>
+                  </ActivityAction>
+                </uix:NApplicationCard.Body>
+                <uix:NApplicationCard.TargetApp>
+                  <uix:TargetApp Area="-9, -9, 1938, 1048" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAL9SURBVFhH7ZdZSJVRFIUvzQOB5UsD1UuDQiMUFT0URQ8RFRRZRGU5Xu0GF01Qy0zUzMpwqByJspJoMMsyyyAjLLIsTQVDMwwbjQgyJCK+1vH6i4GPYS+/sDj/OWefvddee5+Lx4HbC3aP+D9QbAfhwyHE8X+g2I5uJv1tDgQU2yZgE7AJ2ARsAjYBm4BNwCYwsAQChF094w4hbCAJBAkHJ0DyMohfCgXLIdq7h0CoNg2rwB4Y42DBsDUwDsxo1q3RsjNz69uaG18G5pzl0184ugpuhEJtETzMgEQfEXCJgNmM1PugOAguRYvQYB0eKqZzIGMlnNgI+6bD+QhIWQAu2UdNVhb+kLcB8gNlPwScIyFzDRRqPXc77JWNcxzkbBE269/wmbBnHhSFQGUhxPqKgFMEXN7w8hzU3YGPLVCVDakLoasDOisgzQ/KYqGkQGvtcHG9HORD+yOoVya/WxVY2eW44FMDNGXR/Ze8GJ7kwYsz8FxZ1x/zqG1U2imEmx4IEIGsddBcp6YYBgnK8PNduCLG7+TskI+nYW454XEuNJQqgwNwLx1aNDdSN9dKHUlbcxNKtyrrMdDRJvVEqrNZsiuh24nwQXauUZ7ymvJ034JAETisjH4qs6RpwlxobdLhtcqm3hP87GqtKfBJlePNabieAvczhat6Xo2GL9WyUfmaK+FBgmorH11f4bjsO6ViqYLv11qcEDLIE7yXgGnCbVosS4NGMfxRA9fkxD0JXj+VZNpLUue+lczVyuT7eyiXAiUxUiRJ2Uq1qmIRCFCA+fCsTHbl8Oub+kVlrEiFVypjq8pQobKZ3vpLAUPATPwlTfwiODXbk7Xp6BhflUUHTM0ip4jIDHXyEjgyFSL0pgybqBKo+dyzhPHqG5XyQrBKpDK0Nap86gE/nY3TuewVCqzmtoL3Euj7ODX1NDei79z6NlfJah4zGoLGmWkq6/qlb5KKl9VwUiY3SgTVC8bG8ts3uEH34/RfPs+DBPdYXS8pE6pv/dL1a2fB7cUfhN0KLhHuyiIAAAAASUVORK5CYII=" InformativeScreenshot="7f2d8bd156f2e2ca544582aa63f4a95f.jpg" Selector="&lt;html app='msedge.exe' title='Page d&amp;apos;accueil - Agilis' /&gt;" Title="Page d'accueil - Agilis" Url="https://agilis3.sso.francetelecom.fr/v3/public/" />
+                </uix:NApplicationCard.TargetApp>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NApplicationCard>
+              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Page d'accueil - Agilis" sap:VirtualizedContainerService.HintSize="651.2,2923.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_20" InteractionMode="DebuggerApi" ScopeGuid="46da8161-6b08-4fa9-bd3f-6ee4274093b9" Version="V2" WindowResize="Maximize">
+                <uix:NApplicationCard.Body>
+                  <ActivityAction x:TypeArguments="x:Object">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                    </ActivityAction.Argument>
+                    <Sequence sap:VirtualizedContainerService.HintSize="576,2674.4" sap2010:WorkflowViewState.IdRef="Sequence_60">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="513.6,2584" sap2010:WorkflowViewState.IdRef="Sequence_59">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:CommentOut Body="{x:Null}" DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="451.2,126.4" sap2010:WorkflowViewState.IdRef="CommentOut_5" />
+                        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="451.2,366.4" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+                          <ui:CommentOut.Body>
+                            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,256" sap2010:WorkflowViewState.IdRef="Sequence_73">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="353.6,167.2" sap2010:WorkflowViewState.IdRef="LogMessage_20" Message="[currentText.ToString()]" />
+                            </Sequence>
+                          </ui:CommentOut.Body>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </ui:CommentOut>
+                        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="451.2,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_4">
+                          <ui:CommentOut.Body>
+                            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,305.6" sap2010:WorkflowViewState.IdRef="Sequence_76">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NClick ActivateBefore="True" ClickType="Double" DelayAfter="5" DelayBefore="5" DisplayName="Click 'Refresh'" sap:VirtualizedContainerService.HintSize="353.6,216.8" sap2010:WorkflowViewState.IdRef="NClick_56" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="46da8161-6b08-4fa9-bd3f-6ee4274093b9" Version="V3">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/index.php/ElagageBo" DesignTimeRectangle="74, 56, 50, 38" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Agilis - Microsoft Edge' role='pane' /&gt;&lt;ctrl name='App bar' role='tool bar' /&gt;&lt;ctrl name='Refresh' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Agilis - Microsoft Edge' role='pane' /&gt;&lt;ctrl name='App bar' role='tool bar' /&gt;&lt;ctrl name='Refresh' role='push button' automationid='' check:text='Refresh' /&gt;" Guid="ea702b75-f2cb-4a40-9660-27490151d10c" InformativeScreenshot="a941b084ebc55ac9f7f32b91d5918b9a.png" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Agilis and 1 more page - Work - Microsoft​ Edge' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                            </Sequence>
+                          </ui:CommentOut.Body>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </ui:CommentOut>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="True" DelayAfter="5" DelayBefore="5" DisplayName="Click 'Click 'I''" sap:VirtualizedContainerService.HintSize="451.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_57" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="46da8161-6b08-4fa9-bd3f-6ee4274093b9" Version="V3">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/ElagageBo" CVScreenId="f537fd14-08c1-4965-ad3a-f1cc39dd9e16" ContentHash="UNuCq-pM3kGemPs_RfOSMg" CvElementArea="1325, 272, 42, 41" CvType="ArrowButton" DesignTimeRectangle="1328, 275, 37, 37" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl aaname='                      ' parentid='positionSelect' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                      ' parentid='positionSelect' tag='SPAN' type='' class='btn btn-default popover-dismiss' /&gt;" Guid="1e1cb519-751d-4560-a86f-8d0883acf889" InformativeScreenshot="2ce4516dbd83065a2cf1f12e6ff3baf0.png" Reference="1u4FsNan00e57ASPTqWMWA/3RdpjrmNxUelKo6u8yG78g" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Agilis' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="f537fd14-08c1-4965-ad3a-f1cc39dd9e16" CvElementArea="1280, 271, 50, 43" CvType="Button" DesignTimeRectangle="1296, 281, 20, 22" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;i' tag='I' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='I' class='glyphicon glyphicon-search' aaname='' /&gt;" Guid="dbac7e40-f684-4196-a22b-a4f3073f823f" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="Element 'SPAN'" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Target>
+                                <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/ElagageBo" CVScreenId="488b9a8d-96e8-44e9-809a-273023df40ad" CvElementArea="1325, 274, 42, 41" CvType="ArrowButton" DesignTimeRectangle="1328, 276, 37, 37" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl aaname='                      ' parentid='positionSelect' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                      ' parentid='positionSelect' tag='SPAN' type='' class='btn btn-default popover-dismiss' /&gt;" Guid="b4314570-6100-483d-897c-583b7013ad06" InformativeScreenshot="9dd9023776daef0ca6940df37c089f3f.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Agilis' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                              </uix:VerifyExecutionOptions.Target>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayAfter="0" DelayBefore="0" DisplayName="Type Into 'INPUT search-2'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="451.2,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_19" ScopeIdentifier="46da8161-6b08-4fa9-bd3f-6ee4274093b9" Text="[currentText.ToString]" Version="V3">
+                          <uix:NTypeInto.Target>
+                            <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/ElagageBo" CVScreenId="ae6ee53a-25b3-44fe-9edc-94e94c210f8a" CvElementArea="1200, 379, 255, 41" CvType="InputBox" DesignTimeRectangle="1200, 381, 248, 38" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='search-2' parentid='popover63210' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='search-2' parentid='popover63210' tag='INPUT' type='input' class='form-control' placeholder='N° demande' aaname='' /&gt;" Guid="13df714b-07db-4369-bad7-d05b4169bb5e" InformativeScreenshot="9ad25baa4badb1f0d9dea4e621639efc.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Agilis' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="ae6ee53a-25b3-44fe-9edc-94e94c210f8a" CvElementArea="1198, 418, 251, 41" CvType="InputBox" DesignTimeRectangle="1200, 420, 248, 38" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='search-3' parentid='popover63210' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='search-3' parentid='popover63210' tag='INPUT' type='input' class='form-control' placeholder='N° point d&amp;apos;impact' aaname='' /&gt;" Guid="a35d7e0d-14a1-45e3-9db1-0709b7349528" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NTypeInto.Target>
+                          <uix:NTypeInto.VerifyOptions>
+                            <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            </uix:VerifyExecutionTypeIntoOptions>
+                          </uix:NTypeInto.VerifyOptions>
+                        </uix:NTypeInto>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="0" DelayBefore="0" DisplayName="Click 'SPAN'" sap:VirtualizedContainerService.HintSize="451.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_58" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="46da8161-6b08-4fa9-bd3f-6ee4274093b9" Version="V3">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/ElagageBo" CVScreenId="a68286f8-8a4a-4c9c-9037-4a167c403dec" CvElementArea="1444, 379, 49, 41" CvType="Button" DesignTimeRectangle="1446, 381, 47, 39" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl parentid='popover63210' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='popover63210' tag='SPAN' type='' class='btn btn-default span-search-2 ' aaname='' /&gt;" Guid="56e1c62d-03ea-4c90-b7be-beebb084dbb3" InformativeScreenshot="9c5214d4ea4c8f9d02e365a256b57100.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Agilis' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="a68286f8-8a4a-4c9c-9037-4a167c403dec" CvElementArea="1200, 379, 255, 41" CvType="InputBox" DesignTimeRectangle="1200, 381, 248, 38" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='search-2' parentid='popover63210' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='search-2' parentid='popover63210' tag='INPUT' type='input' class='form-control' placeholder='N° demande' aaname='' /&gt;" Guid="f08deddc-31dc-4e63-99ee-c2e243bbb3ee" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="5" DisplayName="Click 'Actions'" sap:VirtualizedContainerService.HintSize="451.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_47" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="46da8161-6b08-4fa9-bd3f-6ee4274093b9" Version="V3">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/index.php/ElagageBo/demande-elagage/consulter/24-64-00189" DesignTimeRectangle="1665, 361, 131, 49" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl id='dropdownMenu1' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='dropdownMenu1' tag='BUTTON' type='button' class='btn btn-default dropdown-toggle' aaname='                     Actions                                     ' check:innerText='Actions' /&gt;" Guid="79a29936-2192-4e36-8b36-3acbf4fbd1c4" InformativeScreenshot="29557e5324fa99e97998f73d480d2cfb.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Consulter demande d&amp;apos;élagage - Agilis' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target DesignTimeRectangle="935, 361, 874, 49" FullSelectorArgument="&lt;webctrl class='col-xs-6' idx='2' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='col-xs-6' type='' tag='DIV' aaname='                                   ' check:innerText='Actions' /&gt;" Guid="c58f455f-d6f7-40c0-a40a-301ffedb5647" SearchSteps="FuzzySelector" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="6" DisplayName="Click 'Générer'" sap:VirtualizedContainerService.HintSize="451.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_48" KeyModifiers="None" ScopeIdentifier="46da8161-6b08-4fa9-bd3f-6ee4274093b9" Version="V3">
+                          <uix:NClick.MouseButton>
+                            <InArgument x:TypeArguments="uix:NMouseButton">
+                              <Literal x:TypeArguments="uix:NMouseButton" sap2010:WorkflowViewState.IdRef="Literal`1_1" />
+                            </InArgument>
+                          </uix:NClick.MouseButton>
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/index.php/ElagageBo/demande-elagage/consulter/24-87-00043" CVScreenId="aa9bc3d8-65db-45cd-bfaf-0a03352b98f5" CvTextArea="1689, 526, 66, 18" CvTextArgument="Generer" CvType="Text" DesignTimeRectangle="1666, 511, 179, 50" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Générer' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Générer' tag='A' type='' class='' check:innerText='Générer' /&gt;" Guid="3f7c2c4b-a1bc-49b3-aa19-089852ebbc07" InformativeScreenshot="4a253575bc0a4cb6841f65614b330b6c.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Consulter demande d&amp;apos;élagage - Agilis' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="5334ead4-54e0-49cc-8c3e-fdb1f8581fd2" CvTextArea="1689, 526, 66, 18" CvTextArgument="Generer" CvType="Text" DesignTimeRectangle="1689, 526, 66, 18" ElementType="Text" Guid="322ecb71-13d8-471d-b14a-f493226bf06a" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="2" DisplayName="Type Into 'INPUT search-2'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="451.2,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_17" ScopeIdentifier="46da8161-6b08-4fa9-bd3f-6ee4274093b9" Text="NEW" Version="V3">
+                          <uix:NTypeInto.Target>
+                            <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/index.php/ElagageBo/demande-elagage/consulter/24-87-00043" CVScreenId="0b864d18-285f-4027-b817-7a2cd49c08ba" CvTextArea="374, 489, 126, 17" CvType="Text" DesignTimeRectangle="363, 480, 155, 37" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='tablegenerercourrier' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tablegenerercourrier' tag='TABLE' /&gt;&lt;webctrl type='text' tag='INPUT' class='form-control input-sm' placeholder='Recherche Nom du modèle' aaname='' /&gt;" Guid="83d87d93-c814-4868-a9c1-678d15b6cc0f" InformativeScreenshot="7929630d589eef1a74742fafd1bf1826.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Consulter demande d&amp;apos;élagage - Agilis' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                              <uix:TargetAnchorable.CvTextArgument>
+                                <InArgument x:TypeArguments="x:String">
+                                  <Literal x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="Literal`1_1">Recherche Nom</Literal>
+                                </InArgument>
+                              </uix:TargetAnchorable.CvTextArgument>
+                            </uix:TargetAnchorable>
+                          </uix:NTypeInto.Target>
+                          <uix:NTypeInto.VerifyOptions>
+                            <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            </uix:VerifyExecutionTypeIntoOptions>
+                          </uix:NTypeInto.VerifyOptions>
+                        </uix:NTypeInto>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Générer'" sap:VirtualizedContainerService.HintSize="451.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_49" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="46da8161-6b08-4fa9-bd3f-6ee4274093b9" Version="V3">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/index.php/ElagageBo/demande-elagage/consulter/24-87-00043" DesignTimeRectangle="346, 529, 246, 72" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl id='tablegenerercourrier' tag='TABLE' /&gt;&lt;webctrl isleaf='1' tableRow='3' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tablegenerercourrier' tag='TABLE' /&gt;&lt;webctrl isleaf='1' type='' tag='TD' class='' aaname='BO Cas 2 mail 1 Mairie (new)' check:innerText='BO Cas 2 mail 1 Mairie (new)' /&gt;" Guid="492e4c86-38f9-4dcc-9f70-3ff23f5bc2c4" InformativeScreenshot="d7718c6c44bf79e79b60f5721b88a9b9.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Consulter demande d&amp;apos;élagage - Agilis' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="4" DelayBefore="4" DisplayName="Click 'Générer'" sap:VirtualizedContainerService.HintSize="451.2,218.4" sap2010:WorkflowViewState.IdRef="NClick_50" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="46da8161-6b08-4fa9-bd3f-6ee4274093b9" Version="V3">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/index.php/ElagageBo/demande-elagage/consulter/24-87-00043" CVScreenId="8b9afb3e-c32a-40eb-aca0-2346dbc38c48" CvElementArea="1032, 877, 165, 53" CvTextArea="1076, 890, 77, 21" CvTextArgument="Generer" CvType="Button" DesignTimeRectangle="1034, 879, 162, 49" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn btn-warning' aaname='Générer' check:innerText='Générer' /&gt;" Guid="782ddbfb-48b5-44c6-866a-9f6df0f32e7f" InformativeScreenshot="347b2959d47554291187c80fecf8daed.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Consulter demande d&amp;apos;élagage - Agilis' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                      </Sequence>
+                    </Sequence>
+                  </ActivityAction>
+                </uix:NApplicationCard.Body>
+                <uix:NApplicationCard.TargetApp>
+                  <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" ContentHash="NsAvDU2jTkCisgrfhzjNZg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAL9SURBVFhH7ZdZSJVRFIUvzQOB5UsD1UuDQiMUFT0URQ8RFRRZRGU5Xu0GF01Qy0zUzMpwqByJspJoMMsyyyAjLLIsTQVDMwwbjQgyJCK+1vH6i4GPYS+/sDj/OWefvddee5+Lx4HbC3aP+D9QbAfhwyHE8X+g2I5uJv1tDgQU2yZgE7AJ2ARsAjYBm4BNwCYwsAQChF094w4hbCAJBAkHJ0DyMohfCgXLIdq7h0CoNg2rwB4Y42DBsDUwDsxo1q3RsjNz69uaG18G5pzl0184ugpuhEJtETzMgEQfEXCJgNmM1PugOAguRYvQYB0eKqZzIGMlnNgI+6bD+QhIWQAu2UdNVhb+kLcB8gNlPwScIyFzDRRqPXc77JWNcxzkbBE269/wmbBnHhSFQGUhxPqKgFMEXN7w8hzU3YGPLVCVDakLoasDOisgzQ/KYqGkQGvtcHG9HORD+yOoVya/WxVY2eW44FMDNGXR/Ze8GJ7kwYsz8FxZ1x/zqG1U2imEmx4IEIGsddBcp6YYBgnK8PNduCLG7+TskI+nYW454XEuNJQqgwNwLx1aNDdSN9dKHUlbcxNKtyrrMdDRJvVEqrNZsiuh24nwQXauUZ7ymvJ034JAETisjH4qs6RpwlxobdLhtcqm3hP87GqtKfBJlePNabieAvczhat6Xo2GL9WyUfmaK+FBgmorH11f4bjsO6ViqYLv11qcEDLIE7yXgGnCbVosS4NGMfxRA9fkxD0JXj+VZNpLUue+lczVyuT7eyiXAiUxUiRJ2Uq1qmIRCFCA+fCsTHbl8Oub+kVlrEiFVypjq8pQobKZ3vpLAUPATPwlTfwiODXbk7Xp6BhflUUHTM0ip4jIDHXyEjgyFSL0pgybqBKo+dyzhPHqG5XyQrBKpDK0Nap86gE/nY3TuewVCqzmtoL3Euj7ODX1NDei79z6NlfJah4zGoLGmWkq6/qlb5KKl9VwUiY3SgTVC8bG8ts3uEH34/RfPs+DBPdYXS8pE6pv/dL1a2fB7cUfhN0KLhHuyiIAAAAASUVORK5CYII=" InformativeScreenshot="7f2d8bd156f2e2ca544582aa63f4a95f.jpg" Reference="1u4FsNan00e57ASPTqWMWA/-TKxvywsKUme9ykNhJ8_-g" Selector="&lt;html app='msedge.exe' title='Page d&amp;apos;accueil - Agilis' /&gt;" Title="Page d'accueil - Agilis" Url="https://agilis3.sso.francetelecom.fr/v3/public/*" />
+                </uix:NApplicationCard.TargetApp>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NApplicationCard>
+              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="getting data from orange website" sap:VirtualizedContainerService.HintSize="651.2,1148" sap2010:WorkflowViewState.IdRef="NApplicationCard_21" InteractionMode="DebuggerApi" ScopeGuid="c08a4b73-4ef2-4960-b62f-99d28d7dcf70" Version="V2">
+                <uix:NApplicationCard.Body>
+                  <ActivityAction x:TypeArguments="x:Object">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,899.2" sap2010:WorkflowViewState.IdRef="Sequence_57">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:String" Name="search" />
+                        <Variable x:TypeArguments="x:String" Name="place" />
+                      </Sequence.Variables>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="457.6,513.6" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="5" RetryInterval="00:00:05">
+                        <ui:RetryScope.ActivityBody>
+                          <ActivityAction>
+                            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="416,305.6" sap2010:WorkflowViewState.IdRef="Sequence_81">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="6" DisplayName="Click 'Modifier'" sap:VirtualizedContainerService.HintSize="353.6,216.8" sap2010:WorkflowViewState.IdRef="NClick_51" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c08a4b73-4ef2-4960-b62f-99d28d7dcf70" Version="V3">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/index.php/ElagageBo/suivi/index/PI-88319-00001/generate" CVScreenId="61f23c09-5ffe-4b7f-9dca-10aaf56ea927" CvElementArea="997, 663, 166, 53" CvTextArea="1042, 677, 77, 20" CvTextArgument="Modifier" CvType="Button" DesignTimeRectangle="1000, 666, 162, 49" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl name='editaction' tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl name='editaction' tag='BUTTON' type='submit' class='btn btn-warning btnSubmit editSuivi' aaname='                                 Modifier                            ' check:innerText='Modifier' /&gt;" Guid="26398052-53b9-457a-ac67-ae218f005cc2" InformativeScreenshot="cea5b0d0d50de55df16ba32cb7e862dc.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Modifier les suivis du point d&amp;apos;impact - Agilis' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                            </Sequence>
+                          </ActivityAction>
+                        </ui:RetryScope.ActivityBody>
+                        <ui:RetryScope.Condition>
+                          <ActivityFunc x:TypeArguments="x:Boolean" />
+                        </ui:RetryScope.Condition>
+                      </ui:RetryScope>
+                      <uix:NGetText DisplayName="Get Text '4 Impasse'" sap:VirtualizedContainerService.HintSize="457.6,189.6" sap2010:WorkflowViewState.IdRef="NGetText_18" ScopeIdentifier="c08a4b73-4ef2-4960-b62f-99d28d7dcf70" TextString="[search]" Version="V3">
+                        <uix:NGetText.Target>
+                          <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/index.php/ElagageBo/suivi/index/PI-87064-00015/generate" CVScreenId="a9ac06b9-30e1-4884-ba18-7955209d37ac" CvTextArea="1220, 524, 338, 21" CvType="AnyWordGroup" DesignTimeRectangle="1220, 518, 567, 30" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl id='full-address' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='full-address' tag='DIV' type='' class='col-md-8 col-sm-6 col-xs-6  text-left  text-align-responsive' /&gt;" Guid="dced57ea-6703-43e2-8d85-b86ce2c13536" InformativeScreenshot="06773c7efb20fa1555673eacb7859a1f.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Modifier les suivis du point d&amp;apos;impact - Agilis' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                        </uix:NGetText.Target>
+                      </uix:NGetText>
+                      <Assign sap:VirtualizedContainerService.HintSize="433.6,107.2" sap2010:WorkflowViewState.IdRef="Assign_8">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:String">[plac]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:String">[search.Split(" "c).last]</InArgument>
+                        </Assign.Value>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </Assign>
+                    </Sequence>
+                  </ActivityAction>
+                </uix:NApplicationCard.Body>
+                <uix:NApplicationCard.TargetApp>
+                  <uix:TargetApp Area="-9, -9, 1938, 1048" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAL9SURBVFhH7ZdZSJVRFIUvzQOB5UsD1UuDQiMUFT0URQ8RFRRZRGU5Xu0GF01Qy0zUzMpwqByJspJoMMsyyyAjLLIsTQVDMwwbjQgyJCK+1vH6i4GPYS+/sDj/OWefvddee5+Lx4HbC3aP+D9QbAfhwyHE8X+g2I5uJv1tDgQU2yZgE7AJ2ARsAjYBm4BNwCYwsAQChF094w4hbCAJBAkHJ0DyMohfCgXLIdq7h0CoNg2rwB4Y42DBsDUwDsxo1q3RsjNz69uaG18G5pzl0184ugpuhEJtETzMgEQfEXCJgNmM1PugOAguRYvQYB0eKqZzIGMlnNgI+6bD+QhIWQAu2UdNVhb+kLcB8gNlPwScIyFzDRRqPXc77JWNcxzkbBE269/wmbBnHhSFQGUhxPqKgFMEXN7w8hzU3YGPLVCVDakLoasDOisgzQ/KYqGkQGvtcHG9HORD+yOoVya/WxVY2eW44FMDNGXR/Ze8GJ7kwYsz8FxZ1x/zqG1U2imEmx4IEIGsddBcp6YYBgnK8PNduCLG7+TskI+nYW454XEuNJQqgwNwLx1aNDdSN9dKHUlbcxNKtyrrMdDRJvVEqrNZsiuh24nwQXauUZ7ymvJ034JAETisjH4qs6RpwlxobdLhtcqm3hP87GqtKfBJlePNabieAvczhat6Xo2GL9WyUfmaK+FBgmorH11f4bjsO6ViqYLv11qcEDLIE7yXgGnCbVosS4NGMfxRA9fkxD0JXj+VZNpLUue+lczVyuT7eyiXAiUxUiRJ2Uq1qmIRCFCA+fCsTHbl8Oub+kVlrEiFVypjq8pQobKZ3vpLAUPATPwlTfwiODXbk7Xp6BhflUUHTM0ip4jIDHXyEjgyFSL0pgybqBKo+dyzhPHqG5XyQrBKpDK0Nap86gE/nY3TuewVCqzmtoL3Euj7ODX1NDei79z6NlfJah4zGoLGmWkq6/qlb5KKl9VwUiY3SgTVC8bG8ts3uEH34/RfPs+DBPdYXS8pE6pv/dL1a2fB7cUfhN0KLhHuyiIAAAAASUVORK5CYII=" InformativeScreenshot="11d4dbac77debb798345fbc6ac726541.jpg" Selector="&lt;html app='msedge.exe' title='Modifier les suivis du point d&amp;apos;impact - Agilis' /&gt;" Title="Modifier les suivis du point d'impact - Agilis" Url="https://agilis3.sso.francetelecom.fr/v3/public/index.php/ElagageBo/suivi/index/PI-87064-00015/generate" />
+                </uix:NApplicationCard.TargetApp>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NApplicationCard>
+              <uix:NApplicationCard AttachMode="SingleWindow" DisplayName="web scraping of needed infos" sap:VirtualizedContainerService.HintSize="651.2,2180" sap2010:WorkflowViewState.IdRef="NApplicationCard_27" InteractionMode="DebuggerApi" ScopeGuid="8ee98b1f-fb45-45c9-a629-89f6f900b6d9" Version="V2" WindowResize="Maximize">
+                <uix:NApplicationCard.Body>
+                  <ActivityAction x:TypeArguments="x:Object">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,1931.2" sap2010:WorkflowViewState.IdRef="Sequence_79">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="353.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_22" Message="[plac]" />
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Qui ?'" EmptyFieldMode="MultiLine" sap:VirtualizedContainerService.HintSize="353.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_20" ScopeIdentifier="8ee98b1f-fb45-45c9-a629-89f6f900b6d9" Text="[plac]" Version="V3">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="https://lannuaire.service-public.fr/recherche?whoWhat=Eymoutiers&amp;where=" CVScreenId="e209c184-3c5a-4922-8f9b-a14b567d6c75" CvElementArea="186, 668, 525, 55" CvType="InputBox" DesignTimeRectangle="190, 673, 520, 50" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='whoWhatDirectorySearchForm' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='whoWhatDirectorySearchForm' tag='INPUT' type='search' class='fr-input' aaname='Qui ? Quoi ? Exemple : Mairie, CAF, Présidente, Claude Larivière' /&gt;" Guid="ee6f84f3-d220-4dcf-b5ea-03a16a66e518" InformativeScreenshot="6ea69d51144b5d6f0c78e383c5a4d089.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='5 Résultat(s) pour votre recherche : Eymoutiers - page 1 sur 1 - Annuaire | Service-Public.fr' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target DesignTimeRectangle="190, 603, 520, 60" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='fr-input-group-searchWho' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='fr-input-group-searchWho' tag='LABEL' type='' class='fr-label' aaname='Qui ? Quoi ?' check:innerText='Qui ? Quoi ?&amp;#xD;&amp;#xA;Exemple : Mairie, CAF, Présidente, Claude Larivière' /&gt;" Guid="eef60cf8-7b7a-43c9-b04d-a8d444d8b7de" SearchSteps="FuzzySelector" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Rechercher dans'" sap:VirtualizedContainerService.HintSize="353.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_59" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8ee98b1f-fb45-45c9-a629-89f6f900b6d9" Version="V3">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="https://lannuaire.service-public.fr/recherche?whoWhat=Eymoutiers&amp;where=" CVScreenId="e209c184-3c5a-4922-8f9b-a14b567d6c75" CvElementArea="1308, 671, 304, 54" CvTextArea="1329, 686, 263, 20" CvTextArgument="Rechercher dans l'annuaire" CvType="Button" DesignTimeRectangle="1330, 683, 261, 30" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='directorySearchSubmit' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='directorySearchSubmit' tag='SPAN' type='' class='' aaname='Rechercher dans l&amp;apos;annuaire' check:innerText='Rechercher dans l&amp;apos;annuaire' /&gt;" Guid="b6c0da61-1825-4585-818b-b32436f08693" InformativeScreenshot="89cb72dff50f8dae28b89e125cc412e9.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='5 Résultat(s) pour votre recherche : Eymoutiers - page 1 sur 1 - Annuaire | Service-Public.fr' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="e209c184-3c5a-4922-8f9b-a14b567d6c75" CvElementArea="1308, 671, 304, 54" CvTextArea="1329, 686, 263, 20" CvTextArgument="Rechercher dans l'annuaire" CvType="Button" DesignTimeRectangle="1310, 673, 301, 50" ElementType="Button" FullSelectorArgument="&lt;webctrl id='directorySearchSubmit' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='directorySearchSubmit' tag='BUTTON' type='submit' class='fr-btn fr-my-2w sp-text--left' aaname='Rechercher dans l&amp;apos;annuaire' check:innerText='Rechercher dans l&amp;apos;annuaire' /&gt;" Guid="3d8f7204-f8d3-4721-b482-ad230040a862" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Rechercher dans'" sap:VirtualizedContainerService.HintSize="353.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_60" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8ee98b1f-fb45-45c9-a629-89f6f900b6d9" Version="V3">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="https://lannuaire.service-public.fr/recherche?whoWhat=paris&amp;where=" CVScreenId="d708f555-b702-4d90-bb3a-9fc912c28346" CvTextArea="462, 735, 575, 20" CvTextArgument="Archives departementales - Paris - Paris 19e Arrondissement" CvType="Text" DesignTimeRectangle="464, 707, 955, 60" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Archives départementales - Paris - Paris 19e Arrondissement' parentid='result_1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='result_1' tag='SPAN' type='' class='' /&gt;" Guid="eacbc124-66d3-46fe-8df3-e0e38666fc76" ImageBase64="" InformativeScreenshot="5252300bca4b973c24708b700fbaffa6.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='1106 Résultat(s) pour votre recherche : paris - page 1 sur 37 - Annuaire | Service-Public.fr' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NGetText DisplayName="Get Text 'Horaires'" sap:VirtualizedContainerService.HintSize="353.6,189.6" sap2010:WorkflowViewState.IdRef="NGetText_21" ScopeIdentifier="8ee98b1f-fb45-45c9-a629-89f6f900b6d9" TextString="[Horaires]" Version="V3">
+                        <uix:NGetText.Target>
+                          <uix:TargetAnchorable BrowserURL="https://lannuaire.service-public.fr/occitanie/haute-garonne/4093955a-20db-4564-9baf-f85e25850b94" DesignTimeRectangle="474, 497, 363, 120" DesignTimeScaleFactor="1.25" ElementType="List" FullSelectorArgument="&lt;webctrl class='fr-raw-list' parentid='main' tag='UL' /&gt;" FuzzySelectorArgument="&lt;webctrl class='fr-raw-list' parentid='main' tag='UL' type='' aaname='' /&gt;" Guid="d49af6af-5b1b-435e-8c70-5211ae0322c3" ImageBase64="" InformativeScreenshot="1332711451a6c98ef6823078995639eb.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Mairie - Ore - Annuaire | Service-Public.fr' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target DesignTimeRectangle="434, 497, 1000, 120" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;article&amp;gt;div&amp;gt;div' idx='3' parentid='main' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='sp-text-icon sp-text-icon-label-list' parentid='main' tag='DIV' aaname='' check:innerText='Du Lundi au Mardi : de 08h30 à 12h30&amp;#xD;&amp;#xA;Le Jeudi : de 08h30 à 18h00&amp;#xD;&amp;#xA;Le Vendredi : de 08h30 à 12h30' /&gt;" Guid="be7e92af-6ec0-468f-8f05-4c881fcbdefd" SearchSteps="FuzzySelector" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NGetText.Target>
+                      </uix:NGetText>
+                      <uix:NGetText DisplayName="Get Text 'Horaires'" sap:VirtualizedContainerService.HintSize="353.6,189.6" sap2010:WorkflowViewState.IdRef="NGetText_22" ScopeIdentifier="8ee98b1f-fb45-45c9-a629-89f6f900b6d9" TextString="[Mail]" Version="V3">
+                        <uix:NGetText.Target>
+                          <uix:TargetAnchorable BrowserURL="https://lannuaire.service-public.fr/nouvelle-aquitaine/haute-vienne/0048ac97-3adb-4cba-81f5-a6e9d99c3906" CVScreenId="e63b6811-2b76-42b1-8286-fd05bdc7ed6e" CvTextArea="472, 649, 290, 25" CvType="AnyWordGroup" DesignTimeRectangle="474, 646, 288, 30" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='contentContactEmail' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='contentContactEmail' tag='A' type='' class='send-mail' /&gt;" Guid="1f7d6526-86f6-4442-bdaa-83bef21fc07f" InformativeScreenshot="bd6c8496fb326179db695a6ea63f648b.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Mairie - Eymoutiers - Annuaire | Service-Public.fr' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="e63b6811-2b76-42b1-8286-fd05bdc7ed6e" CvElementArea="435, 647, 29, 27" CvType="CheckBox" DesignTimeRectangle="434, 646, 30, 31" FullSelectorArgument="&lt;webctrl parentid='contentContactEmail' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='contentContactEmail' tag='SPAN' type='' class='sp-icon fr-icon-mail-line  sp-blue' aaname='' check:innerText='Adresse email' /&gt;" Guid="943e806f-3aff-4d48-bc5b-a56326927c51" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NGetText.Target>
+                      </uix:NGetText>
+                      <uix:NGetText DisplayName="Get Text 'Horaires'" sap:VirtualizedContainerService.HintSize="353.6,189.6" sap2010:WorkflowViewState.IdRef="NGetText_23" ScopeIdentifier="8ee98b1f-fb45-45c9-a629-89f6f900b6d9" TextString="[Tel]" Version="V3">
+                        <uix:NGetText.Target>
+                          <uix:TargetAnchorable BrowserURL="https://lannuaire.service-public.fr/nouvelle-aquitaine/haute-vienne/0048ac97-3adb-4cba-81f5-a6e9d99c3906" CVScreenId="df5eae91-6fd7-4cb1-bc60-c037b73734df" CvTextArea="472, 771, 136, 18" CvType="AnyWordGroup" DesignTimeRectangle="474, 767, 136, 30" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl id='contentPhone_1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='contentPhone_1' tag='SPAN' type='' class='' /&gt;" Guid="3aa08959-8e27-41f4-911b-10b47e6bd1f0" InformativeScreenshot="779a1fb4ed58fb0043926247d9e9d070.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Mairie - Eymoutiers - Annuaire | Service-Public.fr' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target DesignTimeRectangle="434, 767, 30, 90" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;article&amp;gt;div&amp;gt;ul&amp;gt;li&amp;gt;span' idx='5' parentid='main' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='sp-icon fr-icon-phone-line  sp-blue' parentid='main' tag='SPAN' aaname='' check:innerText='Téléphone' /&gt;" Guid="2c65d9b0-85bf-466c-8386-b4eeefa6cff3" SearchSteps="FuzzySelector" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NGetText.Target>
+                      </uix:NGetText>
+                      <uix:NGetText DisplayName="Get Text 'Horaires'" sap:VirtualizedContainerService.HintSize="353.6,189.6" sap2010:WorkflowViewState.IdRef="NGetText_24" ScopeIdentifier="8ee98b1f-fb45-45c9-a629-89f6f900b6d9" TextString="[Lieu]" Version="V3">
+                        <uix:NGetText.Target>
+                          <uix:TargetAnchorable BrowserURL="https://lannuaire.service-public.fr/nouvelle-aquitaine/haute-vienne/0048ac97-3adb-4cba-81f5-a6e9d99c3906" CVScreenId="7880c089-5f46-41b8-81a6-b98bca7ea39f" CvTextArea="472, 524, 447, 18" CvType="AnyWordGroup" DesignTimeRectangle="434, 520, 1000, 30" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='main' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='main' tag='P' type='' class='sp-text-icon fr-mb-3w' aaname='' /&gt;" Guid="5f564453-b488-4dcb-a5a6-82d3dd7d6fe6" InformativeScreenshot="26320d6781d3e6bc19bcefe95d6142f5.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Mairie - Eymoutiers - Annuaire | Service-Public.fr' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="7880c089-5f46-41b8-81a6-b98bca7ea39f" CvTextArea="434, 459, 56, 23" CvTextArgument="Lieu" CvType="Text" DesignTimeRectangle="434, 455, 1000, 35" ElementType="Text" FullSelectorArgument="&lt;webctrl idx='2' tag='H2' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='H2' class='fr-h5 fr-mt-4w' aaname='Lieu' check:innerText='Lieu' /&gt;" Guid="5907c3e3-4af7-4dd3-af6a-4c74789ce4de" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NGetText.Target>
+                      </uix:NGetText>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="353.6,168.8" sap2010:WorkflowViewState.IdRef="LogMessage_23" Message="[Tel + &quot;\n&quot; + Lieu + &quot;\n&quot; + Horaires]" />
+                    </Sequence>
+                  </ActivityAction>
+                </uix:NApplicationCard.Body>
+                <uix:NApplicationCard.TargetApp>
+                  <uix:TargetApp Area="-9, -9, 1938, 1048" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGeSURBVDhPjZO/SwJxGMYPRDLKXIKo/A8UXJpDopay6A/w5sCh1RyMQAqHCCpDENpqq+CyQTNpySIpQsUcrKATEyl/Rlbm+eTpN0/0PPrAu9w9z4fv3XtHUdQm2kehcMDliuCP6tcXypF75JZWwPYN45lSNadDIJdvIxB4IdVOPg4YaYHTGSZRETgOxY0dJAbU4gK9/pAkpUmN6cUFZvMFiUjzRi+ICwyGYxIRp1KpIBaLIbm6Lgh6ehxNweCgC+UyR+KdVKtVBINBlE48goA/ts12DZPpHDrdPvz+BIlLk56abwho+hTT0wwY5hHRaAYPD3kS6U4lkQSrGGoI+AvxeA4azR7U6l2kUh/1kBSfnjPhESYnj6BUOmE0eusnuL1NI5P5rD0vSRO44nv9a+QyWeSX1wQB/xJp2gufj4Xb/QSLJQC7/YbUBNITs81S61Dj4weYm3PXtyCTbcFqvSIVAS6bEy3z01zjzAyDUOiVVNqo7T+7aEZCOdop0Gr3cHnZ/edphcsXUFjfBts/IghKpR9y+/9834XB9vJrVOEX5AARMFDbc+EAAAAASUVORK5CYII=" InformativeScreenshot="e9035f7ba636c5d34f94bf3020edffb3.jpg" Selector="&lt;html app='msedge.exe' title='5 Résultat(s) pour votre recherche : Eymoutiers - page 1 sur 1 - Annuaire | Service-Public.fr' /&gt;" Title="5 Résultat(s) pour votre recherche : Eymoutiers - page 1 sur 1 - Annuaire | Service-Public.fr" Url="https://lannuaire.service-public.fr/recherche?whoWhat=Eymoutiers&amp;where=" />
+                </uix:NApplicationCard.TargetApp>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NApplicationCard>
+              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="editing comment section in the website" sap:VirtualizedContainerService.HintSize="651.2,1356" sap2010:WorkflowViewState.IdRef="NApplicationCard_22" InteractionMode="DebuggerApi" ScopeGuid="172b6bd6-a7f3-4160-a7f5-a8ad60f39d14" Version="V2">
+                <uix:NApplicationCard.Body>
+                  <ActivityAction x:TypeArguments="x:Object">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,1107.2" sap2010:WorkflowViewState.IdRef="Sequence_61">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="457.6,800" sap2010:WorkflowViewState.IdRef="RetryScope_3">
+                        <ui:RetryScope.ActivityBody>
+                          <ActivityAction>
+                            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="416,592" sap2010:WorkflowViewState.IdRef="Sequence_82">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="10" DisplayName="Click 'Informations'" sap:VirtualizedContainerService.HintSize="353.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_52" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="172b6bd6-a7f3-4160-a7f5-a8ad60f39d14" Version="V3">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/index.php/ElagageBo/suivi/index/PI-64426-00001/generate" CVScreenId="70f3e0e8-b06e-4702-8320-54478f3420d4" CvTextArea="107, 482, 113, 20" CvTextArgument="Informations" CvType="Text" DesignTimeRectangle="73, 465, 185, 59" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl id='consulterpi-tab' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='consulterpi-tab' tag='A' type='' class='btn btn-lg' aaname='Informations' check:innerText='Informations' /&gt;" Guid="db000845-11a4-4ab8-b6d4-ad329555d731" InformativeScreenshot="c87e6d3aead8ebcfe9ca3c05a3efa943.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Modifier les suivis du point d&amp;apos;impact - Agilis' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="70f3e0e8-b06e-4702-8320-54478f3420d4" CvTextArea="71, 375, 172, 27" CvTextArgument="Point d'impact" CvType="Text" DesignTimeRectangle="73, 374, 849, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H4' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H4' type='' class='' aaname='Point d&amp;apos;impact' check:innerText='Point d&amp;apos;impact' /&gt;" Guid="fa85e87a-9341-4a60-b768-dab11f76c6dd" SearchSteps="Selector, FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </uix:NClick>
+                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayAfter="0" DelayBefore="6" DisplayName="Type Into 'Commentaire'" EmptyFieldMode="MultiLine" sap:VirtualizedContainerService.HintSize="353.6,277.6" sap2010:WorkflowViewState.IdRef="NTypeInto_18" ScopeIdentifier="172b6bd6-a7f3-4160-a7f5-a8ad60f39d14" Text="[Horaires +&quot;                      Telephone   :&quot;  + tel +&quot;            &quot;+&quot;Lieu  :            &quot; + Lieu]" Version="V3">
+                                <uix:NTypeInto.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/index.php/ElagageBo/point-impact/modifier/PI-87064-00015" CVScreenId="c81af04d-9cdc-436c-8f59-78c4a8e42946" ContentHash="ZsYjt7VyKkuY0u0XYhFJlA" CvElementArea="1513, 464, 258, 76" CvType="InputBox" DesignTimeRectangle="1514, 465, 255, 74" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='EL2_PI_CommentaireEcheance' tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl name='EL2_PI_CommentaireEcheance' tag='TEXTAREA' type='' class='form-control' aaname='Commentaire' /&gt;" Guid="5bc1bfed-1134-4139-a5b3-359639de0905" InformativeScreenshot="32bd881e8a59c11d1e3aa27975b43024.png" IsResponsive="True" Reference="1u4FsNan00e57ASPTqWMWA/DtRyu7hHEEmw9ZbBmZyhnw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Modifier point d&amp;apos;impact - Agilis' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="c81af04d-9cdc-436c-8f59-78c4a8e42946" CvTextArea="1381, 480, 108, 17" CvTextArgument="Commentaire" CvType="Text" DesignTimeRectangle="1384, 465, 105, 37" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Commentaire' class='control-label' idx='4' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Commentaire' class='control-label' type='' tag='LABEL' check:innerText='Commentaire' /&gt;" Guid="1a2a322d-8a31-4dd2-bd25-ef207dbefdb5" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NTypeInto.Target>
+                                <uix:NTypeInto.VerifyOptions>
+                                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                  </uix:VerifyExecutionTypeIntoOptions>
+                                </uix:NTypeInto.VerifyOptions>
+                              </uix:NTypeInto>
+                            </Sequence>
+                          </ActivityAction>
+                        </ui:RetryScope.ActivityBody>
+                        <ui:RetryScope.Condition>
+                          <ActivityFunc x:TypeArguments="x:Boolean" />
+                        </ui:RetryScope.Condition>
+                      </ui:RetryScope>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DelayBefore="1" DisplayName="Click 'Sauvegarder'" sap:VirtualizedContainerService.HintSize="457.6,218.4" sap2010:WorkflowViewState.IdRef="NClick_53" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="172b6bd6-a7f3-4160-a7f5-a8ad60f39d14" Version="V3">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/index.php/ElagageBo/point-impact/modifier/PI-64426-00001" CVScreenId="4f4f97a2-959c-4cbd-91a7-22f04ed6fd7a" CvElementArea="998, 947, 165, 53" CvTextArea="1021, 961, 118, 23" CvTextArgument="Sauvegarder" CvType="Button" DesignTimeRectangle="999, 949, 163, 49" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn btn-success' aaname='Sauvegarder' check:innerText='Sauvegarder' /&gt;" Guid="cc104afd-c505-487a-bf4f-387bc48778c0" InformativeScreenshot="ddcdc701fa34610a475dd2244d0d918c.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Modifier point d&amp;apos;impact - Agilis' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="4f4f97a2-959c-4cbd-91a7-22f04ed6fd7a" CvElementArea="705, 947, 167, 52" CvTextArea="751, 961, 72, 18" CvTextArgument="Annuler" CvType="Button" DesignTimeRectangle="707, 949, 163, 49" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='savefixed' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='savefixed' tag='A' type='' class='btn btn-default' aaname='                     Annuler                 ' check:innerText='Annuler' /&gt;" Guid="d1a674b4-bb0d-4758-87be-e0fc276735d7" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                    </Sequence>
+                  </ActivityAction>
+                </uix:NApplicationCard.Body>
+                <uix:NApplicationCard.TargetApp>
+                  <uix:TargetApp Area="-9, -9, 1938, 1048" BrowserType="Edge" ContentHash="nfxqt1Xkk0WlGL2odWJ02w" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAvJSURBVFhHtdgJUJNnGgdwuioe3IrQnc4Onboz260Hch+iVWsBuUEiggceqLRal6qrqIBWVEAOuTxQ1K3Vumt3tdu6Wl0hJyQhQCAkIQnBW9GqTa9FKy3/fb4vH4eVeLT2mfkPwzDJ9+N5n+/93sTql5Sn4F6Qh/BmpbvwmtFddKVzgqgdE0RtcBcbMEGihbuklf3pUavs8pbXmXwVtQK/enEa9/LfrrwFX6V5Ce91eArvwEN4CwSEu+gS4S5SCCfWs7AJkha41zRjYm0jvGR18FHUwL9BiEnKC91Tmr8wTmv5PIh7yxdTvoLv0rwF35i8BSZ4Ce7BU/glAW8S8CrlMgscL9JjvLiVoiGgmqKCh7QRHrJ6eNXJCChCoLIaQU3nMFV1GsGtJ4yh+uO/DuonuO/mJ+hUEhDegq8J9xU8BXcwkXAThdcJd4UFjhcZOaAG4yVMWihNcK9tgKdcTpHBr17AdBBTmk9juvoUA0SY4SgijYcE3OWer8y4+52+gv/Bpx+QWdr+wPFCBmdggeNEGowTqykqAjazwIlSBTxlZqBfPZ8Fvqn6nAMeQezFvZh1udSUcK3Qjbv008uP/yCBcN1+hGO65yP4hgUy3esBThDS7AnbCdhGMB3GEm6sSE1REbCZ7eB4iZKQClpmGbzrJASs7tfBvyPc8CGijPsJWIa5N7Z3Jt/a/HSkP/8hde4B4TrBxEfwLeFMFFpe7uaYKLzBAZnZM3A4JipzCDiOBTLLXE8drIVPnQj+BJzcdJZm8N8IbT2KmbojiGnfi4SrhQwQybeyOhffTreMZHD+gh86/QUPWByzvOb567s5PIW3e2dvAi3vOJGWUEznWvCGqJlND5BF1jTSMtfBWy5hgUFKBvgpgrUfI8JwALHt5eBdLkTite1YcDMLBDRxnMcrgP9QGSD4AX3A77kO3oMXdc+TuudB3WPuXrZ7QkMvsAfXPyxU3ETbTR285DXwU1RhUuMZAp7EDM3H1MFDiGrbg9mXcwm3CYturUfKl2uw7O6qUxyprwiXFiB4iD5gz/x9jYnnv8TY09fx2lEdxhzT4bVjarx+xoA3qpjZY7o3MJCJGSgnoAS+Cj4CG5ht5hOEaP+GcH0Foo27kXAlh4AZWNixAcvurELq3dTuFfcWPbrUAfwuEyEJ9wPh7sPz3Nd49aAeo3dI4ZQlhNNWCUZm12JUdg1Gba+B8zYRnLfy8XKBGK9+1IjXq1QDAsdLGmjTJqBMQnNYjYCGM5isPIm3Wo4hVHsAMcZiJF75AElXtyD5xlosvf0OUu+k4t27yUaOZmUVyP8xLZDfRd17CN+q+3A70Aa7DCHst0jhmK2A044GjMxtwsidzRiVr4JzQTOc85UYnd+A0XlyuOyQwGUbn6D1+LOgDzqWujdO3MgCPaU1NIcErD9LwFMcsBKxxnwkXNyM+dfSsfDGKha47NYSvHtnXvfKu3PMXSRcBwP0OP0tnLLlsM2shd3Wethvb4ZDnhpO+a1wKtRhZJEBo4oNcC7Rw7lYh9HFWrgUa+BS1ATXfAVccyT4faEIfzpvRpqBSnqqKGiZa+Fbdx6B9Z9hqvJjzFAdRKhmN6INhQTMpGxkgSkdy7CsYwHeuZ2IlXfiTxHupyDqIOG+g12mDDZZCthkN8Fuhxr2ua1w2KmHY4EBTkVtcNrVhpHFbRhVYoRzmRGjKS5lbRQ9XEs0cC1shGteLV7OExCyr4sTJEwHhfCRn0NQw78wueEfBKxEmHYXonQ5iDNsxmzjesy7vArJV5dj+a0FSL2VSOF1WE3i/1Tpf+EhbDLlGJ5VD5utKths18I2pxV2eQbY7zTAocAIx0LKrnY4FbdjZEk7RpVehHNpO0aXX4RLuRnqWqqF6y7qZp6UkHxabiWLdK+RwktaDR/ZFwhSHCfgcbyt2oeZmmJEaPMQq99CwHWES8WCy0ux5Po8LLs5mwF2W006+33nK3SBYZn1GL5FhRHbtLDZoYNNjh62BLTb2Qb7/DbLyDIClhjgsqf9lOvu9tWuZa1rXIuaPnTNrfnR7XAdbUMyOuWI4VHDh5/sMwTWfYLJio/wdnM5QlTFiNJ+gDjdBvD0aUg0pmLexcVIuZ6IlGs8pHbEwsrj028wNKMRw7KaMewDDYZn6zBih56QlFzDY0gHBllk7EW6pFd3v7LmP9PZYe5XLnmyMS7bBVfHVkkJKIJ3zRn4SU8iQHYCUxXlmKEsRZhqCyLVGzFLtxY83QokGJZhrjEZCy/NxuIrcUi5GgWrMYduwjqjCUM3awioxTACDt+mx4jtHDLHAjJfB/vE/d024QVjONNj5ZIrG/PH4wJ4iE/Dp+Yk/KXHESg7gmkMsKEAIcptCG/ehKiW1YhvTUWCfiGSDHORfJGAl2ORciUcVqPyDbDOUsOagEO3tGLYVt0jSLabDJK62YvM08E2oQI2EQVHOYvFmnhccMlT9E94S07Ar/YjTKrdjSny3Zih2IrQxkxENqUhWrUCsS3LWWCiPhHJ7XFYfCnSDLSn7gzJ0hBQC2sCDv2AgE9B2s49DOocbGPK1nEOi+X7yX+PeYmOwEd8GL7iShY4Vb6TBYbUZyC8cRWim5cjriUZCZoEJOlnI0kXgwVtEVjUHtJpNThDjcEEHELAIZtbOSTFEvIv5wmXD9voMtjF7VvDOSyWJ/9QgqeQgMIK+Iv3IrCmBG9Kd2C6fDOC694n4EpENS1HbPNc8Fp4hIvF3NYwzNfPxELjTIHVoAwNBmdqCckAn4LM1sAmqgi2USWwjd0Lu/gDqzmHxfLi76/0EZTSM70cgeJCTBZvwTRpBqZL1yBYvoKASxHRmIIY5RzwmmOQoI5BoiYMc7UhmN86I8jqd5s0GJRBwB4kCx0ISXnvHM1dIeH2wG7WAdjxDio5x4DlWb3XzYtf1uXD30XP9zwECLMRJMrEFPF6vFW7AsHSpQiVpyC8bh5iGuNZYHxTJOa0hCBRHWz+KEDAzmdFjkg6TEtbCttZFdS9g7CbfaiLfRML5VVVIvCqLoZPdQEBcwi4DUHC9XhT/D6mSd5FcG0ywuTzEamIZ4EMjtcUSsDQDu4tCLhRY2SAPchBDJLSH2nNIUeE76Tu7SZcJXXvEANkflZyb/VYeVUVG72rCwmYC3/+ZkwSrMMU0WpMFa/igAsxU5aEcHk8ohQxiKkPx6zGmUaeMrjvqPXSBk3lSxvNQDOSMgBy6AZ6DEbQ/MXR7PGoe7zDBKTwDnXR7wMe070v5Lr5XMgx+VVvJWAWAvibMEX4HqYKUzFNlIKQmiTKHETI4xBVF90VrYjM4V7aVy9tULsREk9DDv2rFDaRuwi4j+teL5AB9y3JAOVXtSnIv3rDqUn8NOVkwUrTNOES0zTRItPbkiRTSA1PGSaNfRzWvwjZ8SQkM5fWawkYRUBm/h4Hwj6+su+A+cIrXZ1GSPQiOSiL5G6eIevoGBZBm7NlIOVAp/2s/S/2a43eSlebzEiKBeSIsBxLS9wDBAG77WdVCOzjKix/fLRQTuGFQU7hBRb+QeoixQy0gByWUDnQTfJzIKUCBOy2j9undIjd+8RvtRwji90cI3blOEYUdRAQBOzm/jRApauVT0Jar7hAT5Hin28zloCUfSAgHGL2UHabHKLLKWVKx6hSo2NUiYlwnRQQkFJEOBb4xM2fQXYySKsBkIM30oGW2Qv7NurnAYKAlDIQkFICFvcosJOATxmNdLUbpcsS0nr5GXa74R51vXkBwG4CPuPcpqsTnoQczqswn2YIxHaSx+B+FbCbgAnc1Z+xzJ18dLlpG2KQgzaoMCy2zIxkOtmD+2XATgI+9x3fV9yN0x/JdJNFxpRyy00YBhbP4Z4dqKT8ClxPmbcgEwPtj2RncsmnsJmZA3u6MAPqgZlDODqasbhHgSYC/gZfqpuh9Fh8FDloXQOGJ5+gjwAlsKPTth11lQXT0cyBumVPN4FdPHUzuryDgL/9t/2EpAOGupKQRkJ29t8rB6cr6bktw4j3aM9ceQ6jV5198Ie1Vddd085P4V79HGVl9X8MVyNGbluHFAAAAABJRU5ErkJggg==" InformativeScreenshot="f520999f0596762ff7790596ff14f2b4.jpg" Reference="1u4FsNan00e57ASPTqWMWA/MH3_sB1Juk-DhganXOQ2cg" Selector="&lt;html app='msedge.exe' title='Modifier les suivis du point d&amp;apos;impact - Agilis' /&gt;" Title="Modifier les suivis du point d'impact - Agilis" Url="https://agilis3.sso.francetelecom.fr/v3/public/index.php/ElagageBo/suivi/index/PI-87064-00015/generate" />
+                </uix:NApplicationCard.TargetApp>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NApplicationCard>
+              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="sending mail to the client" sap:VirtualizedContainerService.HintSize="545.6,637.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_26" ScopeGuid="1f2e8e1f-4a97-4078-844c-35b9534c0027" Version="V2" WindowResize="Maximize">
+                <uix:NApplicationCard.Body>
+                  <ActivityAction x:TypeArguments="x:Object">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                    </ActivityAction.Argument>
+                    <Sequence sap:VirtualizedContainerService.HintSize="512,323.2" sap2010:WorkflowViewState.IdRef="Sequence_66">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <Sequence DisplayName="preparation" sap:VirtualizedContainerService.HintSize="449.6,56.8" sap2010:WorkflowViewState.IdRef="Sequence_65">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <Sequence sap:VirtualizedContainerService.HintSize="512,160" sap2010:WorkflowViewState.IdRef="Sequence_64">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Sequence sap:VirtualizedContainerService.HintSize="512,193.6" sap2010:WorkflowViewState.IdRef="Sequence_63">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,305.6" sap2010:WorkflowViewState.IdRef="Sequence_58">
+                              <Sequence.Variables>
+                                <Variable x:TypeArguments="x:String" Name="SelectedTtext" />
+                                <Variable x:TypeArguments="x:String" Name="a" />
+                              </Sequence.Variables>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Click 'Email_PI-87064-00015_14…'" sap:VirtualizedContainerService.HintSize="387.2,216.8" sap2010:WorkflowViewState.IdRef="NClick_54" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1f2e8e1f-4a97-4078-844c-35b9534c0027" Version="V3">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable CVScreenId="6aae7c85-5b3e-470f-870c-807f77c0fbd6" CvTextArea="255, 186, 201, 17" CvTextArgument="Emai_PI-87064-00015_143 (1)" CvType="Text" DesignTimeRectangle="255, 181, 294, 28" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;wnd aaname='Shell Folder View' cls='SHELLDLL_DefView' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Shell Folder View' cls='SHELLDLL_DefView' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' role='editable text' /&gt;" Guid="47220ee2-0508-460e-9c1d-197c2fb03b84" ImageBase64="" InformativeScreenshot="3f52dcc358c2fb19bdb2e23f62883cdc.png" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='Downloads' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="6aae7c85-5b3e-470f-870c-807f77c0fbd6" CvElementArea="227, 180, 27, 24" CvTextArea="232, 187, 8, 10" CvType="Icon" DesignTimeRectangle="232, 181, 23, 28" ElementType="Icon" FullSelectorArgument="&lt;wnd aaname='Shell Folder View' cls='SHELLDLL_DefView' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl role='graphic' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Shell Folder View' cls='SHELLDLL_DefView' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl role='graphic' automationid='' /&gt;" Guid="7cb83ad7-af7e-438d-b9bc-b0f6cf94e9ea" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABsAAAAgCAYAAADjaQM7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGYSURBVEhLY/hPRzBqGVXACLZMOG/Pf+aUHURjkHpcgKBl2AwkhHEBgpZprHiFEwfc/I8V4wJwywQarv9nqLhCFGauvkqZZdgMxYdFI2uwWgTCuABWy0C+LNj8/P/+u1/AuGHPKwyfi4SUYrUIhHEBrJadf/YdLAaikdnIaqhiWcCih2D++quf4GIgNgiA5GBi3ObxGAkGhj98/ApWjw4wLAMFGQg4zLoPFwOxQQAkBxPDZZnKjFv/pawrwOrRAdUsU1vw6L9s+c7/4iU7/ws3XwCrRwcUB6P6kmf/5esP/pfI3/RftO3if5EJ98EYGyA7gYAsU+w4+V+yYPN/scZTcEtItgyUzEFBBkv6oGyAnvQ5Nf3+i9cc+S/SewfDIpIsIwbzuWf+F247/1+kjwzLSCmuGMvOgfOZ6uJn/yV7L/8X7gTmu/57xFuGDkCG4cMSKd3wlKg879F/0fZz/4W7rpFnGcwgUrDc9Nv/Rdov/BfpwV6M4LTMdO1rrAYSwurLXvzXnEGiZbQAo5ZRBYxaRhVAR8v+/wcAsVuw7cD8bOYAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                            </Sequence>
+                            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Elagage de la végétation aux abords des réseaux de télécommunications - Message (HT" sap:VirtualizedContainerService.HintSize="449.6,48" sap2010:WorkflowViewState.IdRef="NApplicationCard_23" ScopeGuid="f8949ce2-d673-4a98-afaa-c29940125f60" Version="V2">
+                              <uix:NApplicationCard.Body>
+                                <ActivityAction x:TypeArguments="x:Object">
+                                  <ActivityAction.Argument>
+                                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                                  </ActivityAction.Argument>
+                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,814.4" sap2010:WorkflowViewState.IdRef="Sequence_62">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <uix:NGetText DisplayName="Get Text 'Nos références'" sap:VirtualizedContainerService.HintSize="353.6,189.6" sap2010:WorkflowViewState.IdRef="NGetText_19" ScopeIdentifier="f8949ce2-d673-4a98-afaa-c29940125f60" ScrapingMethod="Fulltext" ScrapingOptions="None" TextString="[body]" Version="V3">
+                                      <uix:NGetText.Target>
+                                        <uix:TargetAnchorable DesignTimeRectangle="18, 345, 1383, 559" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;uia automationid='Body' name='Page 1 content' role='edit' /&gt;" FuzzySelectorArgument="&lt;uia automationid='Body' name='Page 1 content' role='edit' /&gt;" Guid="5453b65d-23fb-4ce4-8250-bf4f1971518f" InformativeScreenshot="b601d3a16b2b898b122b1fdb724b0128.png" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Elagage de la végétation aux abords des réseaux de télécommunica*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+                                      </uix:NGetText.Target>
+                                    </uix:NGetText>
+                                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="353.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_15" Message="[body]" />
+                                    <uix:NGetText DisplayName="Get Text 'Subject'" sap:VirtualizedContainerService.HintSize="353.6,189.6" sap2010:WorkflowViewState.IdRef="NGetText_20" ScopeIdentifier="f8949ce2-d673-4a98-afaa-c29940125f60" TextString="[head]" Version="V3">
+                                      <uix:NGetText.Target>
+                                        <uix:TargetAnchorable CVScreenId="5559ca91-1e64-4541-b33f-2b333476dfc1" CvTextArea="255, 317, 484, 16" CvType="AnyWordGroup" DesignTimeRectangle="256, 302, 1501, 49" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;uia automationid='4101' cls='RichEdit20WPT' name='Subject' /&gt;" FuzzySelectorArgument="&lt;uia automationid='4101' cls='RichEdit20WPT' name='Subject' role='edit' /&gt;" Guid="8dc06abb-3fc8-4cd7-8dd8-9ab54a028120" InformativeScreenshot="9ed5c2b9a2d37444bdb40dde948a1524.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Elagage de la végétation aux abords des réseaux de télécommunica*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target CVScreenId="5559ca91-1e64-4541-b33f-2b333476dfc1" CvTextArea="163, 316, 52, 18" CvTextArgument="Subject" CvType="Text" DesignTimeRectangle="141, 315, 100, 36" ElementType="Text" FullSelectorArgument="&lt;uia automationid='4516' cls='Static' name='Subject' /&gt;" FuzzySelectorArgument="&lt;uia automationid='4516' cls='Static' name='Subject' role='text' check:fulltext='Subject' /&gt;" Guid="9141ea40-c308-4556-9eec-9b14e65928e4" SearchSteps="Selector, FuzzySelector, CV" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NGetText.Target>
+                                    </uix:NGetText>
+                                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="353.6,168.8" sap2010:WorkflowViewState.IdRef="LogMessage_16" Message="[head]" />
+                                  </Sequence>
+                                </ActivityAction>
+                              </uix:NApplicationCard.Body>
+                              <uix:NApplicationCard.TargetApp>
+                                <uix:TargetApp Area="21, 9, 1440, 926" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABlSURBVFhH7dExCoAwDEbhXNA7Fa+UxdtZhDqIDmmCJS3vg3/q8kgFADCJUsqZZS3p6XrIgECLbT9euxFoQWAUgX8iMModqKru9Vj3gqO4A7++zroe615wFAKj5g7MspYEAMhPpAKfHRJcETmXRQAAAABJRU5ErkJggg==" InformativeScreenshot="cad47c9f576ee6d754a6acb8dd0bc8cc.png" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Elagage de la végétation aux abords des réseaux de télécommunica*' /&gt;" Title="Elagage de la végétation aux abords des réseaux de télécommunica*" />
+                              </uix:NApplicationCard.TargetApp>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </uix:NApplicationCard>
+                          </Sequence>
+                        </Sequence>
+                      </Sequence>
+                      <ui:SendOutlookMail Account="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" Bcc="ayermohamedamine@gmail.com" Body="[body]" DisplayName="sending mail" sap:VirtualizedContainerService.HintSize="449.6,176" sap2010:WorkflowViewState.IdRef="SendOutlookMail_4" Importance="Normal" IsBodyHtml="False" IsDraft="False" Sensitivity="Normal" Subject="[head +&quot;N° demande :&quot;+ &quot;    &quot; + currentText.ToString]" To="ayermohamedamine@gmail.com">
+                        <ui:SendOutlookMail.Files>
+                          <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
+                            <InArgument x:TypeArguments="x:String">["C:\Users\ayer.mohamedamine_am\Desktop\test\test_img\"+currentText.tostring()+".jpg"]</InArgument>
+                            <InArgument x:TypeArguments="x:String">C:\Users\ayer.mohamedamine_am\Desktop\test\test_pdf\attestation 2 eme.pdf</InArgument>
+                            <InArgument x:TypeArguments="x:String">C:\Users\ayer.mohamedamine_am\Desktop\test\test_pdf\attestation 1 ere annee.pdf</InArgument>
+                            <InArgument x:TypeArguments="x:String" />
+                          </scg:List>
+                        </ui:SendOutlookMail.Files>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </ui:SendOutlookMail>
+                    </Sequence>
+                  </ActivityAction>
+                </uix:NApplicationCard.Body>
+                <uix:NApplicationCard.TargetApp>
+                  <uix:TargetApp Area="-9, -9, 1938, 1048" Arguments="c:\users\ayer.mohamedamine_am\downloads" ContentHash="TxG0skfz6EaXp1h9T5mmxQ" FilePath="C:\Windows\explorer.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAWSSURBVFhH7Zf7U1RlGMdpKvuhSeky2UzNOFOTkkQQgpndzB/6uf+gjBTltiACKmJyxynd5WKIiJuRqFRMw9jsNE0/NpSXtkBBkFh2uS3ginJnLzx9n/e8yx6Ysw6wy4wz+cx8h3POLuf9zPf7PO8LIQ/rYT3I5e4z0l1zGo1cTaC71xLpnjmJRv9OobF/dDTWnEYTLXtp8sY+mmrLoKmbWTTTfoCct7LJ2XmIXP8eJlfXEfJY8shjLaBZaxF5bMVm+ergFA1/T7ND9TTWeoRGrgHyr0QaNScDEJDNqTTeAsjr6YBkwEyabt9PMx0HAcmAOQD8gtyWXPJ05wOwkGZ7Ski+OjhFw/VEt38kcjTStKVC5SJD6mgckBPXpYutGQCEix2Ki65OAMJFdxcD5gEQLtqKVwBw6Dyxk+S4RG473GzOEC6OwsXxZh1ili4yoHTRCRddIuYcACJmBuxmwKJgA15UAIfqAIlrx8806zDRZHvRXC9OtPhcnG4DIPciXHR1wkUBqMQ8yzHbCoMNeMEHKIRrOEkjv9GMrVr04jgDwsXJG+lKzHBxpgMu3lJcdHPMFuki+lC+OjhFQwsBWefQlw0CknvRG/MkXJxq5YkGIMcsALMVQDnN3Ify1cEpBW4B4OB30LcA/FVONADFsKQBEC5iy5lBzE45LG4Zs4djtuavNCDcG6yFzhLd+UVMtIhZujglYlZ60euim2PuOgxAuBh8QIZSAXrds3+DXjTRPd4X52JORR8qMasBRR96AdGH8tXBKZ9zLJV7A0Yx0crGLV1kQNGH6QD0xSz6sCuHPBxzd+4KAqrdGziDQbkEwAQlZq+L3IeIebptHwAzyQkXY7IaaGtJk6ZiD5koUnd+m1xu6eXXvYHTAGzE8bcHgErM7CIDipglIMfMENvP2DW1pbgpSIAL3euvBuBP+CNit+xDJWZfH6ZLwCzalG2iDwGjpc1FTRQeOCDDed0DHLvXfwonSwPdubIb5zPHnDg/ZgbkPgRg9EETbQOMlmILAZgYKKBwD3DCvRrFvf4qgP8AwHgA+mL29eHeuUGJOmCiD2rsmooB4IbAALn3VNF63es/CcB6AThyFYAy5nFVzN5BiQTg+4DRUnRBoIDeaO08GCr3+irx/AI5Lu8Sfcgxe7cbPlUEIPZDBozYb6L3Tts19SYAXwkM0I97fV8DsI4cf/oAlVMlGYA6sR8qgBkUnmWidwGjpaj8gAH9uNd3As/PCcC5PkTMDMh9OIk+nOYNG4AbAfhOtV1Tb+QFCujPvd4KANaS44+dSh/OA0wRgN4TJSzTRFsBo6UIAK6LDwhQw71euNdbjudn6TYDXlYAU/UGAcOLqhVVYqa3T9k1FX38JoXnYqtR6eW0Rnopvm5x/1zNc69P5V5PGZ4baVgAch/uEceeDpCRxWbagsWXowj87ouAW/eJMVQi3L/8usfqrwHg5xIQgwJAnuQUQ6lY6K0q+5L0epGZXti1BDguv+7h3tVdKgDnJlkCjqEHU/SlYsHNWHgxCsd31+5cIhyXpnsCsIocV5JpqGkhIAYFgLxZJ+nLaCMWjgXA/fRaoQK3ZqlwXJru9ZTiupIGf4/zAfKZvACQj7skQ7kAiDmJY01DYfjsubhlwnHNc0/AGRThfjGAfNwlGioorMBMmwCk1gY8e/azAOC4FPc4WnYPztn0inrKFw3oxHGXYDhB6wEUXYmtBeLrZwKF40K0Rl+0cM52XBHu5VcWXU/H1RlfzTcTa82O2uYnt6esxePHoEfEF5Zb1Fv2qc+9Y9BXAlZ+vKQK3VFnXA3nVq3/KAy3T0EMGHhRrz4KcCMCzgrBRfnRg1Nk0YeS9UuzALQeY8AnoEehwCIKdlH3USNAGfB5aDX0OD9/oIosRz/Gj1XK3f+6QkL+A92NGdXcx1t1AAAAAElFTkSuQmCC" InformativeScreenshot="92eed619ea7bcee5486880a8403f445d.png" Reference="1u4FsNan00e57ASPTqWMWA/ki1LfoKbfUq27imvOE_wIA" Selector="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='Downloads' /&gt;" Title="Downloads" />
+                </uix:NApplicationCard.TargetApp>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NApplicationCard>
+            </Sequence>
+          </ActivityAction>
+        </ui:ForEach.Body>
+      </ui:ForEach>
+    </Sequence>
+  </Sequence>
+</Activity>

@@ -1,0 +1,293 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Sequence1" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1182.4,2744" sap2010:WorkflowViewState.IdRef="Sequence1_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Sequence1" sap:VirtualizedContainerService.HintSize="608,2679.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Page d'accueil - Agilis" sap:VirtualizedContainerService.HintSize="545.6,2590.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="46da8161-6b08-4fa9-bd3f-6ee4274093b9" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence sap:VirtualizedContainerService.HintSize="512,2350.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,2260" sap2010:WorkflowViewState.IdRef="Sequence_2">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="0" DelayBefore="0" DisplayName="Click 'Click 'Accéder au module''" sap:VirtualizedContainerService.HintSize="387.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="46da8161-6b08-4fa9-bd3f-6ee4274093b9" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/index.php/ElagageBo/suivi/index/PI-64426-00001/generate" CVScreenId="6277f7d0-8a04-4ec0-901e-6c97c44dad31" ContentHash="SacmqRtPgEGzjMwr0ax6uA" CvElementArea="1607, 418, 209, 54" CvTextArea="1631, 436, 157, 17" CvTextArgument="Acceder au module" CvType="Button" DesignTimeRectangle="1609, 421, 206, 49" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='INPUT' type='button' /&gt;" FuzzyAccuracy="0.6" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='button' class='btn btn-primary' aaname='Accéder au module' check:text='Accéder au module' /&gt;" Guid="cf1212fd-361d-4778-a8dc-f526973d4ea3" ImageBase64="" InformativeScreenshot="bf482b0d06c448fb1be4ded707809bf2.png" IsResponsive="True" Reference="1u4FsNan00e57ASPTqWMWA/89bMcbMy7kmxgku3Q-4Elw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Page d&amp;apos;accueil - Agilis' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="1619, 427, 194, 39" Guid="17fac063-4e5d-40a4-ab04-2f8450a75a59" ImageBase64="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" SearchSteps="Image" TargetType="ImageBased" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="True" DelayAfter="5" DelayBefore="5" DisplayName="Click 'Click 'I''" sap:VirtualizedContainerService.HintSize="387.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="46da8161-6b08-4fa9-bd3f-6ee4274093b9" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/ElagageBo" ContentHash="losohHXcAEyM5lTAgmM1og" DesignTimeRectangle="1328, 275, 37, 37" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl aaname='                      ' parentid='positionSelect' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                      ' parentid='positionSelect' tag='SPAN' type='' class='btn btn-default popover-dismiss' /&gt;" Guid="672106df-ec4e-48b9-af5a-6a977e1c4886" InformativeScreenshot="5726fc235a26a3388ad6661952b8cdee.png" Reference="1u4FsNan00e57ASPTqWMWA/3RdpjrmNxUelKo6u8yG78g" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Agilis' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="71220b60-0ff3-495e-8cce-a927d5910cb1" CvElementArea="1280, 271, 50, 43" CvType="Button" DesignTimeRectangle="1296, 281, 20, 22" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;i' tag='I' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='I' class='glyphicon glyphicon-search' aaname='' /&gt;" Guid="b3a53461-36b6-47e3-9ef2-7eca831ba183" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                    <uix:TargetAnchorable.PointOffset>
+                      <uix:PointOffset Position="TopLeft" X="10" Y="13" />
+                    </uix:TargetAnchorable.PointOffset>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="Element 'SPAN'" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Target>
+                      <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/ElagageBo" CVScreenId="488b9a8d-96e8-44e9-809a-273023df40ad" CvElementArea="1325, 274, 42, 41" CvType="ArrowButton" DesignTimeRectangle="1328, 276, 37, 37" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl aaname='                      ' parentid='positionSelect' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                      ' parentid='positionSelect' tag='SPAN' type='' class='btn btn-default popover-dismiss' /&gt;" Guid="b4314570-6100-483d-897c-583b7013ad06" InformativeScreenshot="9dd9023776daef0ca6940df37c089f3f.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Agilis' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                    </uix:VerifyExecutionOptions.Target>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayAfter="0" DelayBefore="0" DisplayName="Type Into 'INPUT search-2'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="46da8161-6b08-4fa9-bd3f-6ee4274093b9" Text="23-03-00047" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/ElagageBo" CVScreenId="ae6ee53a-25b3-44fe-9edc-94e94c210f8a" CvElementArea="1200, 379, 255, 41" CvType="InputBox" DesignTimeRectangle="1200, 381, 248, 38" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='search-2' parentid='popover63210' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='search-2' parentid='popover63210' tag='INPUT' type='input' class='form-control' placeholder='N° demande' aaname='' /&gt;" Guid="13df714b-07db-4369-bad7-d05b4169bb5e" InformativeScreenshot="9ad25baa4badb1f0d9dea4e621639efc.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Agilis' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="ae6ee53a-25b3-44fe-9edc-94e94c210f8a" CvElementArea="1198, 418, 251, 41" CvType="InputBox" DesignTimeRectangle="1200, 420, 248, 38" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='search-3' parentid='popover63210' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='search-3' parentid='popover63210' tag='INPUT' type='input' class='form-control' placeholder='N° point d&amp;apos;impact' aaname='' /&gt;" Guid="a35d7e0d-14a1-45e3-9db1-0709b7349528" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="0" DelayBefore="0" DisplayName="Click 'SPAN'" sap:VirtualizedContainerService.HintSize="387.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="46da8161-6b08-4fa9-bd3f-6ee4274093b9" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/ElagageBo" CVScreenId="a68286f8-8a4a-4c9c-9037-4a167c403dec" CvElementArea="1444, 379, 49, 41" CvType="Button" DesignTimeRectangle="1446, 381, 47, 39" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl parentid='popover63210' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='popover63210' tag='SPAN' type='' class='btn btn-default span-search-2 ' aaname='' /&gt;" Guid="56e1c62d-03ea-4c90-b7be-beebb084dbb3" InformativeScreenshot="9c5214d4ea4c8f9d02e365a256b57100.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Agilis' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="a68286f8-8a4a-4c9c-9037-4a167c403dec" CvElementArea="1200, 379, 255, 41" CvType="InputBox" DesignTimeRectangle="1200, 381, 248, 38" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='search-2' parentid='popover63210' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='search-2' parentid='popover63210' tag='INPUT' type='input' class='form-control' placeholder='N° demande' aaname='' /&gt;" Guid="f08deddc-31dc-4e63-99ee-c2e243bbb3ee" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Actions'" sap:VirtualizedContainerService.HintSize="387.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="46da8161-6b08-4fa9-bd3f-6ee4274093b9" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/index.php/ElagageBo/demande-elagage/consulter/24-87-00043" DesignTimeRectangle="1665, 361, 131, 49" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl id='dropdownMenu1' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='dropdownMenu1' tag='BUTTON' type='button' class='btn btn-default dropdown-toggle' aaname='                     Actions                                     ' check:innerText='Actions' /&gt;" Guid="6b30be5c-3420-4e24-96a5-e319c6427eb0" InformativeScreenshot="5216e03c02279029c988cbb7e2486c0f.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Consulter demande d&amp;apos;élagage - Agilis' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Générer'" sap:VirtualizedContainerService.HintSize="387.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="46da8161-6b08-4fa9-bd3f-6ee4274093b9" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/index.php/ElagageBo/demande-elagage/consulter/24-87-00043" CVScreenId="aa9bc3d8-65db-45cd-bfaf-0a03352b98f5" CvTextArea="1689, 526, 66, 18" CvTextArgument="Generer" CvType="Text" DesignTimeRectangle="1666, 511, 179, 50" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Générer' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Générer' tag='A' type='' class='' check:innerText='Générer' /&gt;" Guid="3f7c2c4b-a1bc-49b3-aa19-089852ebbc07" InformativeScreenshot="0886e008dfa7ada52ce2d7254a2a8574.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Consulter demande d&amp;apos;élagage - Agilis' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT search-2'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="46da8161-6b08-4fa9-bd3f-6ee4274093b9" Text="NEW" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/index.php/ElagageBo/demande-elagage/consulter/24-87-00043" CVScreenId="0b864d18-285f-4027-b817-7a2cd49c08ba" CvTextArea="374, 489, 126, 17" CvTextArgument="Recherche Nom" CvType="Text" DesignTimeRectangle="363, 480, 155, 37" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='tablegenerercourrier' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tablegenerercourrier' tag='TABLE' /&gt;&lt;webctrl type='text' tag='INPUT' class='form-control input-sm' placeholder='Recherche Nom du modèle' aaname='' /&gt;" Guid="83d87d93-c814-4868-a9c1-678d15b6cc0f" InformativeScreenshot="7929630d589eef1a74742fafd1bf1826.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Consulter demande d&amp;apos;élagage - Agilis' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Générer'" sap:VirtualizedContainerService.HintSize="387.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="46da8161-6b08-4fa9-bd3f-6ee4274093b9" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/index.php/ElagageBo/demande-elagage/consulter/24-87-00043" DesignTimeRectangle="346, 529, 246, 72" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl id='tablegenerercourrier' tag='TABLE' /&gt;&lt;webctrl isleaf='1' tableRow='3' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tablegenerercourrier' tag='TABLE' /&gt;&lt;webctrl isleaf='1' type='' tag='TD' class='' aaname='BO Cas 2 mail 1 Mairie (new)' check:innerText='BO Cas 2 mail 1 Mairie (new)' /&gt;" Guid="492e4c86-38f9-4dcc-9f70-3ff23f5bc2c4" InformativeScreenshot="d7718c6c44bf79e79b60f5721b88a9b9.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Consulter demande d&amp;apos;élagage - Agilis' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Générer'" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="46da8161-6b08-4fa9-bd3f-6ee4274093b9" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/index.php/ElagageBo/demande-elagage/consulter/24-87-00043" CVScreenId="8b9afb3e-c32a-40eb-aca0-2346dbc38c48" CvElementArea="1032, 877, 165, 53" CvTextArea="1076, 890, 77, 21" CvTextArgument="Generer" CvType="Button" DesignTimeRectangle="1034, 879, 162, 49" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn btn-warning' aaname='Générer' check:innerText='Générer' /&gt;" Guid="782ddbfb-48b5-44c6-866a-9f6df0f32e7f" InformativeScreenshot="347b2959d47554291187c80fecf8daed.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Consulter demande d&amp;apos;élagage - Agilis' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+            </Sequence>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" ContentHash="NsAvDU2jTkCisgrfhzjNZg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAL9SURBVFhH7ZdZSJVRFIUvzQOB5UsD1UuDQiMUFT0URQ8RFRRZRGU5Xu0GF01Qy0zUzMpwqByJspJoMMsyyyAjLLIsTQVDMwwbjQgyJCK+1vH6i4GPYS+/sDj/OWefvddee5+Lx4HbC3aP+D9QbAfhwyHE8X+g2I5uJv1tDgQU2yZgE7AJ2ARsAjYBm4BNwCYwsAQChF094w4hbCAJBAkHJ0DyMohfCgXLIdq7h0CoNg2rwB4Y42DBsDUwDsxo1q3RsjNz69uaG18G5pzl0184ugpuhEJtETzMgEQfEXCJgNmM1PugOAguRYvQYB0eKqZzIGMlnNgI+6bD+QhIWQAu2UdNVhb+kLcB8gNlPwScIyFzDRRqPXc77JWNcxzkbBE269/wmbBnHhSFQGUhxPqKgFMEXN7w8hzU3YGPLVCVDakLoasDOisgzQ/KYqGkQGvtcHG9HORD+yOoVya/WxVY2eW44FMDNGXR/Ze8GJ7kwYsz8FxZ1x/zqG1U2imEmx4IEIGsddBcp6YYBgnK8PNduCLG7+TskI+nYW454XEuNJQqgwNwLx1aNDdSN9dKHUlbcxNKtyrrMdDRJvVEqrNZsiuh24nwQXauUZ7ymvJ034JAETisjH4qs6RpwlxobdLhtcqm3hP87GqtKfBJlePNabieAvczhat6Xo2GL9WyUfmaK+FBgmorH11f4bjsO6ViqYLv11qcEDLIE7yXgGnCbVosS4NGMfxRA9fkxD0JXj+VZNpLUue+lczVyuT7eyiXAiUxUiRJ2Uq1qmIRCFCA+fCsTHbl8Oub+kVlrEiFVypjq8pQobKZ3vpLAUPATPwlTfwiODXbk7Xp6BhflUUHTM0ip4jIDHXyEjgyFSL0pgybqBKo+dyzhPHqG5XyQrBKpDK0Nap86gE/nY3TuewVCqzmtoL3Euj7ODX1NDei79z6NlfJah4zGoLGmWkq6/qlb5KKl9VwUiY3SgTVC8bG8ts3uEH34/RfPs+DBPdYXS8pE6pv/dL1a2fB7cUfhN0KLhHuyiIAAAAASUVORK5CYII=" InformativeScreenshot="7f2d8bd156f2e2ca544582aa63f4a95f.jpg" Reference="1u4FsNan00e57ASPTqWMWA/-TKxvywsKUme9ykNhJ8_-g" Selector="&lt;html app='msedge.exe' title='Page d&amp;apos;accueil - Agilis' /&gt;" Title="Page d'accueil - Agilis" Url="https://agilis3.sso.francetelecom.fr/v3/public/*" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

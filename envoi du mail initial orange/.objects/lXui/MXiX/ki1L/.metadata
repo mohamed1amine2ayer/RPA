@@ -1,0 +1,13 @@
+﻿{
+  "Name": "sending mail to the client ",
+  "Type": "Screen",
+  "Id": "ki1LfoKbfUq27imvOE_wIA",
+  "Reference": "1u4FsNan00e57ASPTqWMWA/ki1LfoKbfUq27imvOE_wIA",
+  "ParentRef": "1u4FsNan00e57ASPTqWMWA/MXiXEEPTckW-386Hx9I8jQ",
+  "Created": "2024-09-07T15:54:30.3228001Z",
+  "Updated": "2024-09-07T15:54:30.3228001Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

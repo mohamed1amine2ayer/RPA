@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UNuCq-pM3kGemPs_RfOSMg" Reference="1u4FsNan00e57ASPTqWMWA/3RdpjrmNxUelKo6u8yG78g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/ElagageBo" CVScreenId="f537fd14-08c1-4965-ad3a-f1cc39dd9e16" CvElementArea="1325, 272, 42, 41" CvType="ArrowButton" DesignTimeRectangle="1328, 275, 37, 37" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl aaname='                      ' parentid='positionSelect' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                      ' parentid='positionSelect' tag='SPAN' type='' class='btn btn-default popover-dismiss' /&gt;" Guid="1e1cb519-751d-4560-a86f-8d0883acf889" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Agilis' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="f537fd14-08c1-4965-ad3a-f1cc39dd9e16" CvElementArea="1280, 271, 50, 43" CvType="Button" DesignTimeRectangle="1296, 281, 20, 22" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;i' tag='I' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='I' class='glyphicon glyphicon-search' aaname='' /&gt;" Guid="dbac7e40-f684-4196-a22b-a4f3073f823f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2ce4516dbd83065a2cf1f12e6ff3baf0.png" xmlns="">0s7Ta6Ejm_EWfK0ylx239ag</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

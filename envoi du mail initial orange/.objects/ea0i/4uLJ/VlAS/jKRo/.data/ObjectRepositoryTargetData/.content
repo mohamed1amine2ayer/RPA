@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MSJ55whC4EulV2tiw7_0jw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/" CVScreenId="fff7d89f-0a49-461b-92bf-382f2ab2bd1b" CvElementArea="1607, 418, 209, 54" CvTextArea="1631, 436, 157, 17" CvTextArgument="Acceder au module" CvType="Button" DesignTimeRectangle="1609, 421, 206, 49" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='INPUT' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='button' class='btn btn-primary' aaname='Accéder au module' check:text='Accéder au module' /&gt;" Guid="1f45de9d-4f75-4053-9aee-de7d70f9988a" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="520d51b23204835761023b179fcfbe7d.png" xmlns="">0oM4iUC6EHE6sSnyzxF5dlA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

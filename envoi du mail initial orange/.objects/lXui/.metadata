@@ -1,0 +1,12 @@
+﻿{
+  "Name": "sending mail to the client ",
+  "Type": "App",
+  "Id": "lXuifIZGN0SntZVgsEKznw",
+  "Reference": "1u4FsNan00e57ASPTqWMWA/lXuifIZGN0SntZVgsEKznw",
+  "Created": "2024-09-07T15:54:30.2804276Z",
+  "Updated": "2024-09-07T15:54:30.2804276Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

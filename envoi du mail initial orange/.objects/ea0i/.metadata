@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge Smartphone REALME Note 50 3Go 64Go - Noir",
+  "Type": "App",
+  "Id": "ea0ioMfzikimXQWN2qR7ag",
+  "Reference": "1u4FsNan00e57ASPTqWMWA/ea0ioMfzikimXQWN2qR7ag",
+  "Created": "2024-08-31T17:23:02.6777995Z",
+  "Updated": "2024-08-31T17:23:02.6777995Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

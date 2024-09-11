@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZsYjt7VyKkuY0u0XYhFJlA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://agilis3.sso.francetelecom.fr/v3/public/index.php/ElagageBo/point-impact/modifier/PI-87064-00015" CVScreenId="c81af04d-9cdc-436c-8f59-78c4a8e42946" CvElementArea="1513, 464, 258, 76" CvType="InputBox" DesignTimeRectangle="1514, 465, 255, 74" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='EL2_PI_CommentaireEcheance' tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl name='EL2_PI_CommentaireEcheance' tag='TEXTAREA' type='' class='form-control' aaname='Commentaire' /&gt;" Guid="5bc1bfed-1134-4139-a5b3-359639de0905" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Modifier point d&amp;apos;impact - Agilis' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="c81af04d-9cdc-436c-8f59-78c4a8e42946" CvTextArea="1381, 480, 108, 17" CvTextArgument="Commentaire" CvType="Text" DesignTimeRectangle="1384, 465, 105, 37" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Commentaire' class='control-label' idx='4' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Commentaire' class='control-label' type='' tag='LABEL' check:innerText='Commentaire' /&gt;" Guid="1a2a322d-8a31-4dd2-bd25-ef207dbefdb5" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="32bd881e8a59c11d1e3aa27975b43024.png" xmlns="">05ZJCtuM9fEuK5wClxyDA5A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

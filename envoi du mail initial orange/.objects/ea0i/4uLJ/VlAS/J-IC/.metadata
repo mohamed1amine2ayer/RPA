@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Click 'SPAN'",
+  "Type": "Element",
+  "Id": "J-ICvac_l0K_50TIC0j34w",
+  "Reference": "1u4FsNan00e57ASPTqWMWA/J-ICvac_l0K_50TIC0j34w",
+  "ParentRef": "1u4FsNan00e57ASPTqWMWA/VlASlNbaCUu8lSlShaDAjA",
+  "Created": "2024-09-01T13:53:36.8178664Z",
+  "Updated": "2024-09-01T13:53:36.8178664Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

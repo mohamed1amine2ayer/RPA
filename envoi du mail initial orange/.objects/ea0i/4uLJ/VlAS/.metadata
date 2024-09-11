@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Smartphone REALME Note 50 3Go 64Go - Noi",
+  "Type": "Screen",
+  "Id": "VlASlNbaCUu8lSlShaDAjA",
+  "Reference": "1u4FsNan00e57ASPTqWMWA/VlASlNbaCUu8lSlShaDAjA",
+  "ParentRef": "1u4FsNan00e57ASPTqWMWA/4uLJQa4ukUSr0VAyg37KCA",
+  "Created": "2024-08-31T17:23:02.744532Z",
+  "Updated": "2024-08-31T17:23:02.744532Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

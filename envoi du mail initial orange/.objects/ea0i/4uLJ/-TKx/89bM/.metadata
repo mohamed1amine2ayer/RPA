@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click 'Accéder au module'",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "89bMcbMy7kmxgku3Q-4Elw",
+  "Reference": "1u4FsNan00e57ASPTqWMWA/89bMcbMy7kmxgku3Q-4Elw",
+  "ParentRef": "1u4FsNan00e57ASPTqWMWA/-TKxvywsKUme9ykNhJ8_-g",
+  "Created": "2024-09-02T08:10:15.246954Z",
+  "Updated": "2024-09-02T08:10:15.246954Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
